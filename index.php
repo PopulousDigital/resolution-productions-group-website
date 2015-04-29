@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -14,833 +14,972 @@
     <link href="css/responsive.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600italic,600,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-  </head>
-  <body>
-    <!-- Page Loader -->
-    <div class="preloader">
-      <div id="loaderImage"></div>
-    </div>
-    <div id="main-carousel">
-      <div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="item active">
-            <video autoplay loop style="width: 100%;">
-              <source src="videos/crowd.mp4" />
-            </video>
-            <div class="carousel-caption">
-              <h1 class="animated fadeInUpBig"><strong>watch how we</strong></h1>
-              <h2 class="animated zoomIn">TELL YOUR STORIES</h2>
-              <p class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#">click here</a></p>
+</head>
+<body>
+	<!-- Page Loader -->
+	<div class="preloader">
+    <div id="loaderImage"></div>
+  </div>
+	<div id="main-carousel">
+		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="item active">
+          <video autoplay loop style="width: 100%;">
+            <source src="videos/crowd.mp4" />
+          </video>
+					<div class="carousel-caption">
+						<h1 class="animated fadeInUpBig"><strong>watch how we</strong></h1>
+						<h2 class="animated zoomIn">TELL YOUR STORIES</h2>
+						<p class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#">click here</a></p>
+					</div>
+				</div>
+				<div class="item">
+          <video autoplay loop style="width: 100%;">
+            <source src="videos/traffic.mp4" />
+          </video>
+					<div class="carousel-caption">						
+						<h1 class="animated fadeInUpBig"><strong>Ideation. Design. Execution. Learn how we</strong><h1/>
+						<h2 class="animated zoomIn">TAKE YOUR MESSAGE</h2>
+						<p class="animated fadeInDownBig"><strong>from concept to delivery.</strong><br /><a href="#">click here</a></p>
+					</div>
+				</div>
+				<div class="item">
+          <video autoplay loop style="width: 100%;">
+            <source src="videos/skateboard.mp4" />
+          </video>
+					<div class="carousel-caption">						
+						<h1 class="animated fadeInUpBig"><strong>Visit our</strong></h1>
+						<h2 class="animated zoomIn">PORTFOLIO</h2>
+						<p class="animated fadeInDownBig"><strong>to view our creative projects.</strong><br /><a href="#">click here</a></p>
+					</div>
+				</div>
+			</div>
+			<a class="main-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="main-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+		</div>
+		<a data-scroll class="smooth-scroll" href="#navigation">
+			<div class="mouse-icon">
+				<div class="wheel"></div>
+				<i class="fa fa-angle-down"></i>
+			</div>
+		</a>
+  </div><!--/#main-carousel-->
+	<div id="navigation">
+        <div class="navbar" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.php"><h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="scroll"><a href="#main-carousel">Home</a></li>
+                        <li class="scroll"><a href="#about-us">About Us</a></li>
+                        <li class="scroll"><a href="#creative">Creative</a></li>
+                        <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+                        <li class="scroll"><a href="#contact-us">Contact</a></li>
+<!--
+                        <li class="scroll"><a href="#blog">Blog</a></li>
+                        <li class="scroll"><a href="#social">Social</a></li>
+-->
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="item">
-            <video autoplay loop style="width: 100%;">
-              <source src="videos/traffic.mp4" />
-            </video>
-            <div class="carousel-caption">
-              <h1 class="animated fadeInUpBig"><strong>Ideation. Design. Execution. Learn how we</strong><h1/>
-              <h2 class="animated zoomIn">TAKE YOUR MESSAGE</h2>
-              <p class="animated fadeInDownBig"><strong>from concept to delivery.</strong><br /><a href="#">click here</a></p>
-            </div>
-          </div>
-          <div class="item">
-            <video autoplay loop style="width: 100%;">
-              <source src="videos/skateboard.mp4" />
-            </video>
-            <div class="carousel-caption">
-              <h1 class="animated fadeInUpBig"><strong>Visit our</strong></h1>
-              <h2 class="animated zoomIn">PORTFOLIO</h2>
-              <p class="animated fadeInDownBig"><strong>to view our creative projects.</strong><br /><a href="#">click here</a></p>
-            </div>
-          </div>
         </div>
-        <a class="main-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="main-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-      </div>
-      <a data-scroll class="smooth-scroll" href="#navigation">
-        <div class="mouse-icon">
-          <div class="wheel"></div>
-          <i class="fa fa-angle-down"></i>
-        </div>
-      </a>
-    </div><!--/#main-carousel-->
-    <div id="navigation">
-          <div class="navbar" role="banner">
-              <div class="container">
-                  <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="index.php"><h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1></a>
-                  </div>
-                  <div class="collapse navbar-collapse">
-                      <ul class="nav navbar-nav navbar-right">
-                          <li class="scroll active"><a href="#main-carousel">Home</a></li>
-                          <li class="scroll"><a href="#about-us">About Us</a></li>
-                          <li class="scroll"><a href="#about-us">Portfolio</a></li>
-                          <li class="scroll"><a href="#about-us">Creative</a></li>
-                          <li class="scroll"><a href="#about-us">Contact</a></li>
-                          <li class="scroll"><a href="#about-us">Blog</a></li>
-                          <li class="scroll"><a href="#about-us">Social</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div><!--/#navigation-->
-    <section id="about-us" class="padding-top off-white">
-      <div class="container text-center">
-        <div class="row section-title">
-          <div class="col-sm-8 col-sm-offset-2">
-            <h2>About Us</h2>
-            <p>Resolution Productions Group is a design and production resource that understands how critical it is for brands to form personal and lasting impressions. Our vertical business model results in a streamlined process for a variety of creative services that empowers our clients to achieve higher creative goals.</p>
-          </div>
-        </div>
-        <div class="bout-us-image">
-          <img class="img-responsive" src="img/about-us.png" alt="" />
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6 about-content">
-            <div class="about-icon">
-              <i class="fa fa-users"></i>
-            </div>
-            <div class="about-text">
-              <h3>Event Design</h3>
-              <p>Imaginative design that inspires your participants</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">
-            <div class="about-icon">
-              <i class="fa fa-film"></i>
-            </div>
-            <div class="about-text">
-              <h3>Video</h3>
-              <p>Effective storytelling through high caliber production</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">
-            <div class="about-icon">
-              <i class="fa fa-rss"></i>
-            </div>
-            <div class="about-text">
-              <h3>Webcast</h3>
-              <p>Online Learning at the speed<br />of digital</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">
-            <div class="about-icon">
-              <i class="fa fa-picture-o"></i>
-            </div>
-            <div class="about-text">
-              <h3>Scenic</h3>
-              <p>Building environments that elevate the audience experience</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!--/#about us-->
-    <div id="testimonial" class="parallax-section">
-      <div class="parallax-content">
-        <div class="color-overlay"></div>
-        <a class="testimony-left" href="#testimonial-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="testimony-right" href="#testimonial-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner text-center">
-                  <div class="item active">
-                    <img class="img-responsive img-circle" src="images/testimonial/client1.jpg" alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span>CEO, Google</span> </p>
-                  </div>
-                  <div class="item">
-                    <img class="img-responsive img-circle" src="images/testimonial/client2.jpg" alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span>CEO, Google</span> </p>
-                  </div>
-                  <div class="item">
-                    <img class="img-responsive img-circle" src="images/testimonial/client3.jpg" alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span>CEO, Google</span> </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!--/#testimonial-->
-    <?php /* ?>
-    <div id="promo-one" class="parallax-section">
-      <div class="parallax-content">
-        <div class="color-overlay"></div>
-        <div class="container text-center">
-          <h2>Octopus has unique and modern design!</h2>
-          <p>Designed for Creative Agency</p>
-          <a href="#" class="btn btn-primary">Buy Theme</a>
-        </div>
-      </div>		
-    </div><!--/parallax-section--> 
-    <section id="why-us" class="padding-top">
-      <div class="container">
-        <div class="row text-center section-title">
-          <div class="col-sm-8 col-sm-offset-2">
-            <h2>Why Like Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-          </div>				
-        </div>
-        <div class="row text-center like-us">
-          <div class="col-md-3 col-sm-6 about-content">
-            <div class="about-icon">
-              <i class="fa fa-bitbucket"></i>						
-            </div>
-            <div class="about-text">
-              <h3>Fresh Design</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">
-            <div class="about-icon">
-              <i class="fa fa-cloud"></i>							
-            </div>
-            <div class="about-text">
-              <h3>Useful features</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
-            </div>					
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">					
-            <div class="about-icon">
-              <i class="fa fa-cog"></i>							
-            </div>
-            <div class="about-text">
-              <h3>Easy Customization</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
-            </div>					
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">					
-            <div class="about-icon">
-              <i class="fa fa-coffee"></i>							
-            </div>
-            <div class="about-text">
-              <h3>Preset Style</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
-            </div>					
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">					
-            <div class="about-icon">
-              <i class="fa fa-laptop"></i>							
-            </div>
-            <div class="about-text">
-              <h3>Free Updates</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
-            </div>					
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">					
-            <div class="about-icon">
-              <i class="fa fa-paper-plane"></i>							
-            </div>
-            <div class="about-text">
-              <h3>Fully Responsive</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
-            </div>					
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">					
-            <div class="about-icon">
-              <i class="fa fa-leaf"></i>							
-            </div>
-            <div class="about-text">
-              <h3>Dropdown Menu</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
-            </div>					
-          </div>
-          <div class="col-md-3 col-sm-6 about-content">					
-            <div class="about-icon">
-              <i class="fa fa-group (alias)"></i>							
-            </div>
-            <div class="about-text">
-              <h3>Typhography</h3>
-              <p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
-            </div>					
-          </div>				
-        </div>
-      </div>
-    </section><!--/why-us--> 
-    
-    <div id="promo-two" class="text-center parallax-section">
-      <div class="parallax-content">
-        <div class="color-overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3">
-              <i class="fa fa-clock-o"></i>	
-              <h3 class="timer" data-to="2700" data-speed="7000" data-from="0">hidden-time</h3>					
-              <h4>Hours Of Work</h4>
-            </div>
-            <div class="col-sm-3">
-              <i class="fa fa-heart"></i>	
-              <h3 class="timer" data-to="32" data-speed="5000" data-from="0">hidden-time</h3>
-              <h4>Clients Worked</h4>
-            </div>
-            <div class="col-sm-3">
-              <i class="fa fa-paper-plane"></i>	
-              <h3 class="timer" data-to="178" data-speed="5000" data-from="0">hidden-time</h3>
-              <h4>Project Done</h4>
-            </div>
-            <div class="col-sm-3">
-              <i class="fa fa-coffee"></i>	
-              <h3 class="timer" data-to="45" data-speed="5000" data-from="0">hidden-time</h3>
-              <h4>Cups of Coffee</h4>
-            </div>
-          </div>			
-        </div>
-      </div>		
-    </div><!--/parallax-section-->		
-    
-    <section id="why-octopus" class="padding-top padding-bottom">
-      <div class="container">
-        <div class="row text-center section-title">
-          <div class="col-sm-8 col-sm-offset-2">
-            <h2>Why Octopus</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-          </div>				
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="row octopus-tab">
-              <div class="col-sm-3">
-                <ul class="tab-list" role="tablist">
-                  <li class="active"><a href="#html5" role="tab" data-toggle="tab"><i class="fa fa-html5"></i> HTML5</a></li>
-                  <li><a href="#css3" role="tab" data-toggle="tab"><i class="fa fa-css3"></i> CSS3</a></li>
-                  <li><a href="#web-design" role="tab" data-toggle="tab"><i class="fa fa-paper-plane"></i> Design</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-9">
-                <div class="tab-content">
-                  <div class="tab-pane fade in active off-white" id="html5">
-                    <h2>We love to work with HTML5</h2>
-                    <img class="img-responsive" src="images/accordion/accordion1.jpg" alt="accordion" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
-                  </div>
-                  <div class="tab-pane fade off-white" id="css3">
-                    <h2>We love to work with CSS3</h2>
-                    <img class="img-responsive" src="images/accordion/accordion2.jpg" alt="accordion" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
-                  </div>
-                  <div class="tab-pane fade off-white" id="web-design">
-                    <h2>We love to Design</h2>
-                    <img class="img-responsive" src="images/accordion/accordion3.jpg" alt="accordion" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
-                  </div>
-                </div>	
-              </div>
-            </div>	
-          </div>
-          <div class="col-sm-6">
-            <div class="panel-group" id="accordion-two">
-              <div class="panel panel-default">
-                <div class="panel-heading active">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-two" href="#professional"><i class="fa fa-magic"></i> Professional Design</a>
-                  </h4>
-                </div>
-                <div id="professional" class="panel-collapse collapse in">
-                  <div class="panel-body">									
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-two" href="#customization"><i class="fa fa-cogs"></i> Easy Customization</a>
-                  </h4>
-                </div>
-                <div id="customization" class="panel-collapse collapse">
-                  <div class="panel-body">									
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-two" href="#support"> <i class="fa fa-envelope"></i> 24/7 Support</a>
-                  </h4>
-                </div>
-                <div id="support" class="panel-collapse collapse">
-                  <div class="panel-body">									
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion-two" href="#help-desk"><i class="fa fa-bitbucket"></i> Live Help Desk</a>
-                  </h4>
-                </div>
-                <div id="help-desk" class="panel-collapse collapse">
-                  <div class="panel-body">									
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                  </div>
-                </div>
-              </div>
-            </div>				
-          </div>
-        </div>
-      </div>
-    </section><!--/#why-octopus-->
-    
-    <section id="portfolio" class="padding-top padding-bottom off-white">
-      <div class="container">
-        <div class="row text-center section-title">
-          <div class="col-sm-8 col-sm-offset-2">
-            <h2>Portfolio</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-          </div>				
-        </div>			
-        <div class="portfolio-wrapper">
-          <ul class="portfolio-filter text-center">                                         
-            <li><a class="active" href="#" data-filter="*">All</a></li>	
-            <li><a href="#" data-filter=".photography">Photography</a></li>
-            <li><a href="#" data-filter=".video">Video</a></li>
-            <li><a href="#" data-filter=".print-design">Print Design</a></li>
-            <li><a href="#" data-filter=".graphic">Graphic</a></li>
-            <li><a href="#" data-filter=".art">Art</a></li>
-          </ul><!--/#portfolio-filter-->
-          
-          <div class="row portfolio-items">
-            <div class="col-sm-4 col-md-3 portfolio-item print-design video">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>	
-            </div>
-            <div class="col-sm-4 col-md-3 portfolio-item graphic video">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>	
-            </div>
-            <div class="col-sm-4 col-md-3 portfolio-item print-design art">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>	
-            </div>
-            <div class="col-sm-4 col-md-3 portfolio-item video art photography">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>	
-            </div>
-            <div class="col-sm-4 col-md-3 portfolio-item video art">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>	
-            </div>
-            <div class="col-sm-4 col-md-3 portfolio-item photography graphic">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>	
-            </div>
-            <div class="col-sm-4 col-md-3 portfolio-item video art">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>						
-            </div>
-            <div class="col-sm-4 col-md-3 portfolio-item photography graphic print-design">
-              <div class="portfolio-content">
-                <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-                <div class="folio-overlay">
-                  <a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-                  <a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                </div>
-              </div>	
-            </div>					
-          </div>				
-        </div>
-      </div>
-    </section><!--/#portfolio-->	
-    
-    <div id="testimonial" class="parallax-section">
-      <div class="parallax-content">
-        <div class="color-overlay"></div>
-        <a class="testimony-left" href="#testimonial-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="testimony-right" href="#testimonial-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">						
-                <div class="carousel-inner text-center">							
-                  <div class="item active">							
-                    <img class="img-responsive img-circle" src="images/testimonial/client1.jpg" alt="" />
-                    <p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
-                  </div>
-                  <div class="item">							
-                    <img class="img-responsive img-circle" src="images/testimonial/client2.jpg" alt="" />
-                    <p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
-                  </div>
-                  <div class="item">							
-                    <img class="img-responsive img-circle" src="images/testimonial/client3.jpg" alt="" />
-                    <p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
-                  </div>
-                </div>
-              </div>					
-            </div>
-          </div>				
-        </div>
-      </div>
-    </div><!--/#testimonial--> 
+    </div><!--/#navigation-->
+	<section id="about-us" class="padding-top off-white">
+		<div class="container text-center">
+			<div class="row section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>About Us</h2>
+					<p>Resolution Productions Group is a design and production resource that understands how critical it is for brands to form personal and lasting impressions. Our vertical business model results in a streamlined process for a variety of creative services that empowers our clients to achieve higher creative goals.</p>
+				</div>
+			</div>
+			<div class="bout-us-image">
+				<img class="img-responsive" src="img/about-us.png" alt="" />
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon">
+						<i class="fa fa-users"></i>
+					</div>
+					<div class="about-text">
+						<h3>Event Design</h3>
+						<p>Imaginative design that inspires your participants</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon">
+						<i class="fa fa-film"></i>
+					</div>
+					<div class="about-text">
+						<h3>Video</h3>
+						<p>Effective storytelling through high caliber production</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon">
+            <i class="fa fa-rss"></i>
+					</div>
+					<div class="about-text">
+						<h3>Webcast</h3>
+						<p>Online Learning at the speed<br />of digital</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-picture-o"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Scenic</h3>
+						<p>Building environments that elevate the audience experience</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#about us-->
+	<div id="testimonial" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<a class="testimony-left" href="#testimonial-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="testimony-right" href="#testimonial-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner text-center">
+								<div class="item active">
+									<img class="img-responsive img-circle" src="img/logo-alas.png" alt="" />
+                  <p>Resolution consistently delivers excellent work, on time and on budget. They’ve got the experience, the resources and the facilities we need to help us get our message out. <span>Bob Denby<br />Senior Vice President – Loss Prevention</span> </p>
+								</div>
+								<div class="item">
+									<img class="img-responsive img-circle" src="img/logo-cars.png" alt="" />
+                  <p>From show to video production, Resolution understands our brand and our needs so we’re continuously able to work efficiently and effectively to achieve great results. <span>Maureen Boyle<br />Director, Creative Services &amp; Events</span> </p>
+								</div>
+								<div class="item">
+									<img class="img-responsive img-circle" src="images/testimonial/client3.jpg" alt="" />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span>CEO, Google</span> </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--/#testimonial--> 
+  <?php /* ?>
+	
+	<div id="promo-one" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<div class="container text-center">
+				<h2>Octopus has unique and modern design!</h2>
+				<p>Designed for Creative Agency</p>
+				<a href="#" class="btn btn-primary">Buy Theme</a>
+			</div>
+		</div>		
+	</div><!--/parallax-section--> 
+	
+	<section id="why-us" class="padding-top">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Why Like Us</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>				
+			</div>
+			<div class="row text-center like-us">
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon">
+						<i class="fa fa-bitbucket"></i>						
+					</div>
+					<div class="about-text">
+						<h3>Fresh Design</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon">
+						<i class="fa fa-cloud"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Useful features</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-cog"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Easy Customization</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-coffee"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Preset Style</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-laptop"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Free Updates</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-paper-plane"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Fully Responsive</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-leaf"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Dropdown Menu</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua. </p>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-6 about-content">					
+					<div class="about-icon">
+						<i class="fa fa-group (alias)"></i>							
+					</div>
+					<div class="about-text">
+						<h3>Typhography</h3>
+						<p>Lorem ipsum dolor sit amet elit sed do eiusmod tempor incilabore dolore magna aliqua.</p>
+					</div>					
+				</div>				
+			</div>
+		</div>
+	</section><!--/why-us--> 
+	
+	<div id="promo-two" class="text-center parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<i class="fa fa-clock-o"></i>	
+						<h3 class="timer" data-to="2700" data-speed="7000" data-from="0">hidden-time</h3>					
+						<h4>Hours Of Work</h4>
+					</div>
+					<div class="col-sm-3">
+						<i class="fa fa-heart"></i>	
+						<h3 class="timer" data-to="32" data-speed="5000" data-from="0">hidden-time</h3>
+						<h4>Clients Worked</h4>
+					</div>
+					<div class="col-sm-3">
+						<i class="fa fa-paper-plane"></i>	
+						<h3 class="timer" data-to="178" data-speed="5000" data-from="0">hidden-time</h3>
+						<h4>Project Done</h4>
+					</div>
+					<div class="col-sm-3">
+						<i class="fa fa-coffee"></i>	
+						<h3 class="timer" data-to="45" data-speed="5000" data-from="0">hidden-time</h3>
+						<h4>Cups of Coffee</h4>
+					</div>
+				</div>			
+			</div>
+		</div>		
+	</div><!--/parallax-section-->		
+	*/ ?>
+	<section id="creative" class="padding-top padding-bottom">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Creative</h2>
+					<p>Dive into our creative resources. Learn more about our team and capabilities.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="row octopus-tab">
+						<div class="col-sm-3">
+							<ul class="tab-list" role="tablist">
+								<li class="active"><a href="#html5" role="tab" data-toggle="tab"><i class="fa fa-users"></i> Event Design</a></li>
+								<li><a href="#css3" role="tab" data-toggle="tab"><i class="fa fa-film"></i> Video</a></li>
+								<li><a href="#webcast" role="tab" data-toggle="tab"><i class="fa fa-rss"></i> Webcast</a></li>
+								<li><a href="#scenic" role="tab" data-toggle="tab"><i class="fa fa-picture-o"></i> Scenic</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-9">
+							<div class="tab-content">
+								<div class="tab-pane fade in active off-white" id="html5">
+									<h2>Event Design</h2>
+									<img class="img-responsive" src="images/accordion/accordion1.jpg" alt="accordion" />
+									<p>Bring us to the table early and alleviate your communication logistics by working with one vendor. Resolution Productions Group brings 30+ years experience working in the live event industry to help you theme, design and execute your goals.</p>
+								</div>
+								<div class="tab-pane fade off-white" id="css3">
+									<h2>Video</h2>
+									<img class="img-responsive" src="images/accordion/accordion2.jpg" alt="accordion" />
+									<p>Your content deserves the best. Resolution Productions Group is a full-service media production company. Our state-of-the-art facility, creatives and staff of seasoned producers handle all aspects of the production process- from concept to final delivery.</p>
+								</div>
+								<div class="tab-pane fade off-white" id="webcast">
+									<h2>Webcast</h2>
+									<img class="img-responsive" src="images/accordion/accordion2.jpg" alt="accordion" />
+									<p>From the desktop to the second screen, Resolution Productions Group combines broadcast best practices and web presentation expertise that keeps your participants from clicking away. Let us develop and execute your digital presentations to reach your remote audience.</p>
+								</div>
+								<div class="tab-pane fade off-white" id="scenic">
+									<h2>Scenic</h2>
+									<img class="img-responsive" src="images/accordion/accordion3.jpg" alt="accordion" />
+									<p>To make your set or trade show look great, you need options for display. Resolution Productions Group leverages our massive inventory of LED and on premise manufacturer to design and engineer customized options for our clients.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel-group" id="accordion-two">
+						<div class="panel panel-default">
+							<div class="panel-heading active">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#professional"><i class="fa fa-magic"></i> National Meetings</a>
+								</h4>
+							</div>
+							<div id="professional" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p>With so many types of meetings in a variety of locations, you need a partner who understands every facet required to pull off an event.  From design to execution, Resolution Productions Group delivers award winning quality- accommodating experiences of any size or scope.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#customization"><i class="fa fa-cogs"></i> Shareholders Meetings</a>
+								</h4>
+							</div>
+							<div id="customization" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Make your C-suite look great when presenting to stakeholders and investors. Let Resolutions Productions Group’s experience producing quarterly sessions and town halls take your message beyond the boardroom. </p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#support"> <i class="fa fa-envelope"></i> Experiential</a>
+								</h4>
+							</div>
+							<div id="support" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>We are the act in activation. Resolution Productions Group will engineer technologies to capture data and build environments that interact with your audience.  Whether it’s a tradeshow, street marketing campaign or festival, Resolution has the technology to drive engagement.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#help-desk1"><i class="fa fa-bitbucket"></i> Road Tours</a>
+								</h4>
+							</div>
+							<div id="help-desk1" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Is a multi-city tour leading your brand launch or national campaign?  Our project management skills and fleet of trucks make it possible for us to travel with you across the country and minimize logistics.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#field-production"> <i class="fa fa-envelope"></i> Field Production</a>
+								</h4>
+							</div>
+							<div id="field-production" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>From filming interviews on a factory floor to aerial footage in the rainforest, send our experienced crew into the field to capture the highest quality video content.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#editorial"> <i class="fa fa-envelope"></i> Editorial</a>
+								</h4>
+							</div>
+							<div id="editorial" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Bring your story to life with our team of seasoned editors. <a href="">Watch our editing reel here</a>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#sound-design"> <i class="fa fa-envelope"></i> Sound Design</a>
+								</h4>
+							</div>
+							<div id="sound-design" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>We mix and sound design for different types of projects: corporate videos, television & radio, short & feature length films, documentaries, commercials, web content and video games. We do this by providing: sound design, sound mixing & sweetening, dialogue replacement (ADR), music search, noise reduction & audio restoration, voice casting, voice over recording (VO), digital patch (ISDN). <a href="">Watch our audio reel here</a>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#graphics"> <i class="fa fa-envelope"></i> Graphics</a>
+								</h4>
+							</div>
+							<div id="graphics" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Animate your message. Our graphic capabilities range from 2D text animation to 3D projections mapped on buildings. <a href="">Watch our graphics reel here</a>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#studios"> <i class="fa fa-envelope"></i> Studios</a>
+								</h4>
+							</div>
+							<div id="studios" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Our facility, with one of the largest shooting stages in Chicago, is a powerhouse of capabilities. We have everything you need within our walls: multiple stages, dressing rooms and workspaces are a few of our offerings – and it serves as a unique place to host an event.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#continuing-education"> <i class="fa fa-envelope"></i> Continuing Education</a>
+								</h4>
+							</div>
+							<div id="continuing-education" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>From pharmaceutical to association, we understand the value of continuing education. We produce online programs that educate and entertain your audience.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#broadcast"> <i class="fa fa-envelope"></i> Broadcast</a>
+								</h4>
+							</div>
+							<div id="broadcast" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Are you reporting to a global audience?  Resolution Productions Group will coordinate broadcast trucks, satellite times and manage the network connections.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#satellite-media-tour"> <i class="fa fa-envelope"></i> Satellite Media Tour</a>
+								</h4>
+							</div>
+							<div id="satellite-media-tour" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Have your PR message delivered live to television networks. Resolution Productions Group is a best-in-class SMT provider. Take it a step further and let us edit and distribute the message as a VNR.  </p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#led"> <i class="fa fa-envelope"></i> LED</a>
+								</h4>
+							</div>
+							<div id="led" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Upgrade your presentation environment with our high resolution LED (light-emitting diode) displays.  Our inventory includes: hi-res 3mm Indoor, bevel/angle capable 4mm indoor, outdoor 5mm, and flexible 9mm indoor/outdoor. Our tiles are calibrated, matching and our inventory is in the thousands.  We build LED walls and structures for a variety of scenic solutions.  <a href="">Watch our LED sizzle reel here</a>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#projection-screens"> <i class="fa fa-envelope"></i> Projection Screens</a>
+								</h4>
+							</div>
+							<div id="projection-screens" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>When it comes to custom screen solutions that best fit your staging requirements, Resolution Productions Group owns and operates one of the largest screen manufacturers in North America. Our screens are available for purchase or rental and we offer repair services.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-two" href="#set-fabrication"> <i class="fa fa-envelope"></i> Set Fabrication</a>
+								</h4>
+							</div>
+							<div id="set-fabrication" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>Don't limit your design to just a traditional surface or screen. Leverage our manufacturing capabilities to build scenic accents for your production. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#creative-->
+	<section id="portfolio" class="padding-top padding-bottom off-white">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Portfolio</h2>
+					<p>We hope you enjoy our work as much as we did while creating it.</p>
+				</div>
+			</div>
+			<div class="portfolio-wrapper">
+				<ul class="portfolio-filter text-center">
+					<li><a class="active" href="#" data-filter="*">All</a></li>
+					<li><a href="#" data-filter=".photography">Live Events</a></li>
+					<li><a href="#" data-filter=".video">Production</a></li>
+					<li><a href="#" data-filter=".print-design">Video</a></li>
+				</ul><!--/#portfolio-filter-->
+				<div class="row portfolio-items">
+					<div class="col-sm-4 col-md-3 portfolio-item print-design video">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item graphic video">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item print-design art">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video art photography">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video art">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item photography graphic">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video art">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item photography graphic print-design">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
+								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>	
+					</div>					
+				</div>				
+			</div>
+		</div>
+	</section><!--/#portfolio-->	
+  <?php /*
+	
+	<div id="testimonial" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<a class="testimony-left" href="#testimonial-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="testimony-right" href="#testimonial-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">						
+							<div class="carousel-inner text-center">							
+								<div class="item active">							
+									<img class="img-responsive img-circle" src="images/testimonial/client1.jpg" alt="" />
+									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+								</div>
+								<div class="item">							
+									<img class="img-responsive img-circle" src="images/testimonial/client2.jpg" alt="" />
+									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+								</div>
+								<div class="item">							
+									<img class="img-responsive img-circle" src="images/testimonial/client3.jpg" alt="" />
+									<p>Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. Thanks to Team Octopus. <span>CEO, Google</span> </p>							
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div><!--/#testimonial--> 
 
-    <section id="our-team" class="padding-top padding-bottom">
-          <div class="container">
-        <div class="row text-center section-title">
-          <div class="col-sm-8 col-sm-offset-2">
-            <h2>Our Team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-          </div>				
-        </div>	
-              <div class="team-members text-center">
-                  <div class="row">
-                      <div class="col-sm-6 col-md-3">
-              <div class="member">
-                <div class="member-image">
-                  <img class="img-responsive" src="images/team/member1.jpg" alt="">
-                  <div class="member-overlay">
-                    <a href="#"><i class="fa fa-plus"></i></a>	
-                  </div>
-                </div>																
-                <div class="member-info">
-                  <h4>Marsha Burns</h4>
-                  <p>UI/UX DESIGNER</p>
-                </div>							
-                <ul class="member-social">
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                </ul>
-              </div>
-                      </div>
-                      <div class="col-sm-6 col-md-3">
-              <div class="member">
-                <div class="member-image">
-                  <img class="img-responsive" src="images/team/member2.jpg" alt="">
-                  <div class="member-overlay">
-                    <a href="#"><i class="fa fa-plus"></i></a>	
-                  </div>
-                </div>												
-                <div class="member-info">
-                  <h4>Ronald Cook</h4>
-                  <p>WEB DEVELOPER</p>
-                </div>							
-                <ul class="member-social">
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                </ul>
-              </div>
-                      </div>
-                     <div class="col-sm-6 col-md-3">
-              <div class="member">
-                <div class="member-image">
-                  <img class="img-responsive" src="images/team/member3.jpg" alt="">
-                  <div class="member-overlay">
-                    <a href="#"><i class="fa fa-plus"></i></a>	
-                  </div>
-                </div>													
-                <div class="member-info">
-                  <h4>Darlene D. Lyons</h4>
-                  <p>MANAGER SUPPORT</p>
-                </div>							
-                <ul class="member-social">
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                </ul>
-              </div>
-                      </div>
-                      <div class="col-sm-6 col-md-3">
-              <div class="member">
-                <div class="member-image">
-                  <img class="img-responsive" src="images/team/member4.jpg" alt="">
-                  <div class="member-overlay">
-                    <a href="#"><i class="fa fa-plus"></i></a>	
-                  </div>
-                </div>											
-                <div class="member-info">
-                  <h4>Martin Black</h4>
-                  <p>Web Developer</p>
-                </div>							
-                <ul class="member-social">
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                </ul>
-              </div>
-                      </div>
-                  </div>
-              </div>            
-          </div>
-      </section><!--/#Our team-->
-    
-    
-    <div id="twitter" class="text-center parallax-section">
-      <div class="parallax-content">
-        <div class="color-overlay"></div>
-        <a class="twitter-left-control" href="#twitter-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="twitter-right-control" href="#twitter-slide" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+	<section id="our-team" class="padding-top padding-bottom">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <div class="twitter-icon">
-                <i class="fa fa-twitter"></i>
-              </div>
-              <div id="twitter-slide" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>5 hours ago</span></a>
-                  </div>
-                  <div class="item">
-                    <a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>9 hours ago</span></a>
-                  </div>
-                  <div class="item">                                
-                     <a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>2 hours ago</span></a>
-                  </div>
-                </div>                        
-              </div>                    
-            </div>
-          </div>
-        </div>
-          </div>
-      </div><!--/#twitter-->
-    
-    <section id="blog" class="padding-top bottom60">
-      <div class="container">
-        <div class="row text-center section-title">
-          <div class="col-sm-8 col-sm-offset-2">
-            <h2>Latest Blog</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="blog-content">
-              <div class="entry-header">
-                <div class="blog-image">
-                  <img class="img-responsive" src="images/blog/post1.jpg" alt="" />
-                  <div class="more-link">
-                    <a href="#"><i class="fa fa-plus"></i></a>
-                  </div>
-                </div>							
-                <div class="post-date">
-                  <h2>21<span>June</span></h2>
-                </div>							
-              </div>
-              <div class="entry-content">							
-                <h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-                <ul class="entry-meta">
-                  <li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="blog-content">
-              <div class="entry-header">
-                <div class="blog-image">
-                  <img class="img-responsive" src="images/blog/post2.jpg" alt="" />
-                  <div class="more-link">
-                    <a href="#"><i class="fa fa-plus"></i></a>
-                  </div>
-                </div>							
-                <div class="post-date">
-                  <h2>21<span>June</span></h2>
-                </div>							
-              </div>
-              <div class="entry-content">							
-                <h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-                <ul class="entry-meta">
-                  <li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              </div>
-            </div>
-          </div>	
-          <div class="col-sm-6">
-            <div class="blog-content">
-              <div class="entry-header">
-                <div class="blog-image">
-                  <img class="img-responsive" src="images/blog/post3.jpg" alt="" />
-                  <div class="more-link">
-                    <a href="#"><i class="fa fa-plus"></i></a>
-                  </div>
-                </div>							
-                <div class="post-date">
-                  <h2>21<span>June</span></h2>
-                </div>							
-              </div>
-              <div class="entry-content">							
-                <h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-                <ul class="entry-meta">
-                  <li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="blog-content">
-              <div class="entry-header">
-                <div class="blog-image">
-                  <img class="img-responsive" src="images/blog/post4.jpg" alt="" />
-                  <div class="more-link">
-                    <a href="#"><i class="fa fa-plus"></i></a>
-                  </div>
-                </div>							
-                <div class="post-date">
-                  <h2>21<span>June</span></h2>
-                </div>							
-              </div>
-              <div class="entry-content">							
-                <h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
-                <ul class="entry-meta">
-                  <li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
-                  <li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!--/#blog-->
-      
-    
-    <section id="contact-us" class="parallax-section">
-      <div class="parallax-content">
-        <div class="color-overlay"></div>
-        <div class="container">
-          <div class="row text-center section-title">
-            <div class="col-sm-8 col-sm-offset-2">
-              <h2>Contact Us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <form id="contact-form" name="contact-form" method="post" action="sendemail.php">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" required="required" placeholder="Name">
-                  </div>
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Our Team</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>				
+			</div>	
+            <div class="team-members text-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/team/member1.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>																
+							<div class="member-info">
+								<h4>Marsha Burns</h4>
+								<p>UI/UX DESIGNER</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/team/member2.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>												
+							<div class="member-info">
+								<h4>Ronald Cook</h4>
+								<p>WEB DEVELOPER</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                   <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/team/member3.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>													
+							<div class="member-info">
+								<h4>Darlene D. Lyons</h4>
+								<p>MANAGER SUPPORT</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+						<div class="member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/team/member4.jpg" alt="">
+								<div class="member-overlay">
+									<a href="#"><i class="fa fa-plus"></i></a>	
+								</div>
+							</div>											
+							<div class="member-info">
+								<h4>Martin Black</h4>
+								<p>Web Developer</p>
+							</div>							
+							<ul class="member-social">
+								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input type="email" name="email" class="form-control" required="required" placeholder="Email">
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" name="subject" class="form-control" required="required" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Message"></textarea>
-              </div>                        
-              <div class="form-group">
-                <button type="submit" class="btn btn-submit">Send Message</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-sm-6">
-            <div class="contact-info">
-              <h3>Contact Info</h3>
-              <ul>
-                <li><i class="fa fa-phone"></i> Phone: (312) 846-4226</li>
-                <li><i class="fa fa-map-marker"></i>  2226 West Walnut Street, Chicago, IL 60612</li>
-                <li><i class="fa fa-envelope"></i><a href="mailto:info@resolutionproductionsgroup.com"> info@resolutionproductionsgroup.com</a></li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <div class="social-icons">
-                <h3>Get in Touch</h3>
-                <ul>
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+            </div>            
         </div>
-      </div>
-    </section><!--/#contact-us-->	
-    <div id="gmap"></div><!--/#gmap-->
-    <?php */ ?>
-    <footer id="footer">
-      <div class="container text-center">
-        <p>&copy; <?php echo date("Y"); ?> <a href="#">Resolution Productions Group</a>. All rights reserved.</p>
-      </div>
-      <a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
-    </footer><!--/#footer--> 
-    
-    <!--/#scripts--> 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>	
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript" src="js/gmaps.js"></script>
-    <script type="text/javascript" src="js/jquery.parallax.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    <script type="text/javascript" src="js/smooth-scroll.js"></script>
-    <script type="text/javascript" src="js/canvas.js"></script>
-    <script type="text/javascript" src="js/preloader.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>	
-  </body>
+    </section><!--/#Our team-->
+	
+	
+	<div id="twitter" class="text-center parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<a class="twitter-left-control" href="#twitter-slide" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="twitter-right-control" href="#twitter-slide" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<div class="twitter-icon">
+							<i class="fa fa-twitter"></i>
+						</div>
+						<div id="twitter-slide" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>5 hours ago</span></a>
+								</div>
+								<div class="item">
+									<a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>9 hours ago</span></a>
+								</div>
+								<div class="item">                                
+								   <a href="#">Octopus is a Unique, Creative and Awesome One Page Template. Designer and the Developers did well with this template and i am happy to using it. <span>2 hours ago</span></a>
+								</div>
+							</div>                        
+						</div>                    
+					</div>
+				</div>
+			</div>
+        </div>
+    </div><!--/#twitter-->
+	
+	<section id="blog" class="padding-top bottom60">
+		<div class="container">
+			<div class="row text-center section-title">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2>Latest Blog</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="images/blog/post1.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="images/blog/post2.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>	
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="images/blog/post3.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="blog-content">
+						<div class="entry-header">
+							<div class="blog-image">
+								<img class="img-responsive" src="images/blog/post4.jpg" alt="" />
+								<div class="more-link">
+									<a href="#"><i class="fa fa-plus"></i></a>
+								</div>
+							</div>							
+							<div class="post-date">
+								<h2>21<span>June</span></h2>
+							</div>							
+						</div>
+						<div class="entry-content">							
+							<h3 class="entry-title"><a href="#">Adipisicing elit, sed do eiusmod tempor</a></h3>
+							<ul class="entry-meta">
+								<li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-tags"></i> Photograph <span>/</span></a></li>
+								<li><a href="#"><i class="fa fa-comments"></i> 3 Comments</a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#blog-->
+		
+  <?php */ ?>
+	
+	<section id="contact-us" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<div class="container">
+				<div class="row text-center section-title">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h2>Contact Us</h2>
+						<p>We’d love to keep you in the loop on upcoming rooftop parties, open houses and other fun information. We don’t enjoy being spammed and don’t expect you to either.</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<form id="contact-form" name="contact-form" method="post" action="./">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" required="required" placeholder="Name">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" required="required" placeholder="Email">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" name="subject" class="form-control" required="required" placeholder="Subject">
+						</div>
+						<div class="form-group">
+							<textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Message"></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-submit">Send Message</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<div class="contact-info">
+						<h3>Contact Info</h3>
+						<ul>
+							<li><i class="fa fa-phone"></i> Phone: 312.243.8230</li>
+							<li><i class="fa fa-map-marker"></i>  2226 West Walnut Street, Chicago, IL 60612</li>
+							<li><i class="fa fa-envelope"></i><a href="mailto:info@resolutionproductionsgroup.com"> info@resolutionproductionsgroup.com</a></li>
+						</ul>
+						<p>We’d love to have a conversation with you so please reach out.</p>
+						<div class="social-icons">
+							<h3>Get in Touch</h3>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#contact-us-->	
+	<div id="gmap"></div><!--/#gmap-->
+	<footer id="footer">
+		<div class="container text-center">
+			<p>&copy; <?php echo date("Y"); ?> <a href="#">Resolution Productions Group</a>. All rights reserved.</p>
+		</div>
+		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
+	</footer><!--/#footer--> 
+	
+	<!--/#scripts--> 
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/gmaps.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="js/canvas.js"></script>
+	<script type="text/javascript" src="js/preloader.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>	
+</body>
 </html>
