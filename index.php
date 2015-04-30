@@ -45,7 +45,7 @@
           <video autoplay loop style="width: 100%;">
             <source src="videos/traffic.mp4" />
           </video>
-					<div class="carousel-caption">						
+					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>Ideation. Design. Execution. Learn how we</strong><h1/>
 						<h2 class="animated zoomIn">TAKE YOUR MESSAGE</h2>
 						<p class="animated fadeInDownBig"><strong>from concept to delivery.</strong><br /><a href="#">click here</a></p>
@@ -55,7 +55,7 @@
           <video autoplay loop style="width: 100%;">
             <source src="videos/skateboard.mp4" />
           </video>
-					<div class="carousel-caption">						
+					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>Visit our</strong></h1>
 						<h2 class="animated zoomIn">PORTFOLIO</h2>
 						<p class="animated fadeInDownBig"><strong>to view our creative projects.</strong><br /><a href="#">click here</a></p>
@@ -73,32 +73,31 @@
 		</a>
   </div><!--/#main-carousel-->
 	<div id="navigation">
-        <div class="navbar" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1></a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="scroll"><a href="#main-carousel">Home</a></li>
-                        <li class="scroll"><a href="#about-us">About Us</a></li>
-                        <li class="scroll"><a href="#creative">Creative</a></li>
-                        <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                        <li class="scroll"><a href="#contact-us">Contact</a></li>
-<!--
-                        <li class="scroll"><a href="#blog">Blog</a></li>
-                        <li class="scroll"><a href="#social">Social</a></li>
--->
-                    </ul>
-                </div>
-            </div>
+    <div class="navbar" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php"><h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1></a>
         </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll"><a href="#main-carousel">Home</a></li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>
+            <li class="scroll"><a href="#creative">Creative</a></li>
+            <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+            <li class="scroll"><a href="#contact-us">Contact</a></li>
+<!--
+            <li class="scroll"><a href="#blog">Blog</a></li>
+            <li class="scroll"><a href="#social">Social</a></li>
+-->
+          </ul>
+        </div>
+      </div>
     </div><!--/#navigation-->
 	<section id="about-us" class="padding-top off-white">
 		<div class="container text-center">
@@ -132,7 +131,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">
 					<div class="about-icon">
-            <i class="fa fa-rss"></i>
+            <i class="fa fa-wifi"></i>
 					</div>
 					<div class="about-text">
 						<h3>Webcast</h3>
@@ -321,32 +320,32 @@
 					<div class="row octopus-tab">
 						<div class="col-sm-3">
 							<ul class="tab-list" role="tablist">
-								<li class="active"><a href="#html5" role="tab" data-toggle="tab"><i class="fa fa-users"></i> Event Design</a></li>
-								<li><a href="#css3" role="tab" data-toggle="tab"><i class="fa fa-film"></i> Video</a></li>
-								<li><a href="#webcast" role="tab" data-toggle="tab"><i class="fa fa-rss"></i> Webcast</a></li>
-								<li><a href="#scenic" role="tab" data-toggle="tab"><i class="fa fa-picture-o"></i> Scenic</a></li>
+								<li class="active"><a href="#html5" role="tab" data-toggle="tab" onclick="toggleAccordion('event-design')"><i class="fa fa-users"></i> Event Design</a></li>
+								<li><a href="#css3" role="tab" data-toggle="tab" onclick="toggleAccordion('video')"><i class="fa fa-film"></i> Video</a></li>
+								<li><a href="#webcast" role="tab" data-toggle="tab" onclick="toggleAccordion('webcast')"><i class="fa fa-wifi"></i> Webcast</a></li>
+								<li><a href="#scenic" role="tab" data-toggle="tab" onclick="toggleAccordion('scenic')"><i class="fa fa-picture-o"></i> Scenic</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-9">
 							<div class="tab-content">
 								<div class="tab-pane fade in active off-white" id="html5">
 									<h2>Event Design</h2>
-									<img class="img-responsive" src="images/accordion/accordion1.jpg" alt="accordion" />
+									<img class="img-responsive" src="img/creative-event.jpg" alt="accordion" />
 									<p>Bring us to the table early and alleviate your communication logistics by working with one vendor. Resolution Productions Group brings 30+ years experience working in the live event industry to help you theme, design and execute your goals.</p>
 								</div>
 								<div class="tab-pane fade off-white" id="css3">
 									<h2>Video</h2>
-									<img class="img-responsive" src="images/accordion/accordion2.jpg" alt="accordion" />
+									<img class="img-responsive" src="img/creative-video.jpg" alt="accordion" />
 									<p>Your content deserves the best. Resolution Productions Group is a full-service media production company. Our state-of-the-art facility, creatives and staff of seasoned producers handle all aspects of the production process- from concept to final delivery.</p>
 								</div>
 								<div class="tab-pane fade off-white" id="webcast">
 									<h2>Webcast</h2>
-									<img class="img-responsive" src="images/accordion/accordion2.jpg" alt="accordion" />
+									<img class="img-responsive" src="img/creative-webcast.jpg" alt="accordion" />
 									<p>From the desktop to the second screen, Resolution Productions Group combines broadcast best practices and web presentation expertise that keeps your participants from clicking away. Let us develop and execute your digital presentations to reach your remote audience.</p>
 								</div>
 								<div class="tab-pane fade off-white" id="scenic">
 									<h2>Scenic</h2>
-									<img class="img-responsive" src="images/accordion/accordion3.jpg" alt="accordion" />
+									<img class="img-responsive" src="img/creative-scenic.jpg" alt="accordion" />
 									<p>To make your set or trade show look great, you need options for display. Resolution Productions Group leverages our massive inventory of LED and on premise manufacturer to design and engineer customized options for our clients.</p>
 								</div>
 							</div>
@@ -355,186 +354,194 @@
 				</div>
 				<div class="col-sm-6">
 					<div class="panel-group" id="accordion-two">
-						<div class="panel panel-default">
-							<div class="panel-heading active">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#professional"><i class="fa fa-magic"></i> National Meetings</a>
-								</h4>
-							</div>
-							<div id="professional" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<p>With so many types of meetings in a variety of locations, you need a partner who understands every facet required to pull off an event.  From design to execution, Resolution Productions Group delivers award winning quality- accommodating experiences of any size or scope.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#customization"><i class="fa fa-cogs"></i> Shareholders Meetings</a>
-								</h4>
-							</div>
-							<div id="customization" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Make your C-suite look great when presenting to stakeholders and investors. Let Resolutions Productions Group’s experience producing quarterly sessions and town halls take your message beyond the boardroom. </p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#support"> <i class="fa fa-envelope"></i> Experiential</a>
-								</h4>
-							</div>
-							<div id="support" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>We are the act in activation. Resolution Productions Group will engineer technologies to capture data and build environments that interact with your audience.  Whether it’s a tradeshow, street marketing campaign or festival, Resolution has the technology to drive engagement.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#help-desk1"><i class="fa fa-bitbucket"></i> Road Tours</a>
-								</h4>
-							</div>
-							<div id="help-desk1" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Is a multi-city tour leading your brand launch or national campaign?  Our project management skills and fleet of trucks make it possible for us to travel with you across the country and minimize logistics.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#field-production"> <i class="fa fa-envelope"></i> Field Production</a>
-								</h4>
-							</div>
-							<div id="field-production" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>From filming interviews on a factory floor to aerial footage in the rainforest, send our experienced crew into the field to capture the highest quality video content.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#editorial"> <i class="fa fa-envelope"></i> Editorial</a>
-								</h4>
-							</div>
-							<div id="editorial" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Bring your story to life with our team of seasoned editors. <a href="">Watch our editing reel here</a>.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#sound-design"> <i class="fa fa-envelope"></i> Sound Design</a>
-								</h4>
-							</div>
-							<div id="sound-design" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>We mix and sound design for different types of projects: corporate videos, television & radio, short & feature length films, documentaries, commercials, web content and video games. We do this by providing: sound design, sound mixing & sweetening, dialogue replacement (ADR), music search, noise reduction & audio restoration, voice casting, voice over recording (VO), digital patch (ISDN). <a href="">Watch our audio reel here</a>.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#graphics"> <i class="fa fa-envelope"></i> Graphics</a>
-								</h4>
-							</div>
-							<div id="graphics" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Animate your message. Our graphic capabilities range from 2D text animation to 3D projections mapped on buildings. <a href="">Watch our graphics reel here</a>.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#studios"> <i class="fa fa-envelope"></i> Studios</a>
-								</h4>
-							</div>
-							<div id="studios" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Our facility, with one of the largest shooting stages in Chicago, is a powerhouse of capabilities. We have everything you need within our walls: multiple stages, dressing rooms and workspaces are a few of our offerings – and it serves as a unique place to host an event.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#continuing-education"> <i class="fa fa-envelope"></i> Continuing Education</a>
-								</h4>
-							</div>
-							<div id="continuing-education" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>From pharmaceutical to association, we understand the value of continuing education. We produce online programs that educate and entertain your audience.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#broadcast"> <i class="fa fa-envelope"></i> Broadcast</a>
-								</h4>
-							</div>
-							<div id="broadcast" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Are you reporting to a global audience?  Resolution Productions Group will coordinate broadcast trucks, satellite times and manage the network connections.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#satellite-media-tour"> <i class="fa fa-envelope"></i> Satellite Media Tour</a>
-								</h4>
-							</div>
-							<div id="satellite-media-tour" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Have your PR message delivered live to television networks. Resolution Productions Group is a best-in-class SMT provider. Take it a step further and let us edit and distribute the message as a VNR.  </p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#led"> <i class="fa fa-envelope"></i> LED</a>
-								</h4>
-							</div>
-							<div id="led" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Upgrade your presentation environment with our high resolution LED (light-emitting diode) displays.  Our inventory includes: hi-res 3mm Indoor, bevel/angle capable 4mm indoor, outdoor 5mm, and flexible 9mm indoor/outdoor. Our tiles are calibrated, matching and our inventory is in the thousands.  We build LED walls and structures for a variety of scenic solutions.  <a href="">Watch our LED sizzle reel here</a>.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#projection-screens"> <i class="fa fa-envelope"></i> Projection Screens</a>
-								</h4>
-							</div>
-							<div id="projection-screens" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>When it comes to custom screen solutions that best fit your staging requirements, Resolution Productions Group owns and operates one of the largest screen manufacturers in North America. Our screens are available for purchase or rental and we offer repair services.</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-two" href="#set-fabrication"> <i class="fa fa-envelope"></i> Set Fabrication</a>
-								</h4>
-							</div>
-							<div id="set-fabrication" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Don't limit your design to just a traditional surface or screen. Leverage our manufacturing capabilities to build scenic accents for your production. </p>
-								</div>
-							</div>
-						</div>
+            <span class="accordion-section active" id="event-design-section">
+              <div class="panel panel-default">
+                <div class="panel-heading active">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#event-design-section" href="#professional"><i class="fa fa-calendar-o"></i> National Meetings</a>
+                  </h4>
+                </div>
+                <div id="professional" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <p>With so many types of meetings in a variety of locations, you need a partner who understands every facet required to pull off an event.  From design to execution, Resolution Productions Group delivers award winning quality- accommodating experiences of any size or scope.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#event-design-section" href="#customization"><i class="fa fa-line-chart"></i> Shareholders Meetings</a>
+                  </h4>
+                </div>
+                <div id="customization" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Make your C-suite look great when presenting to stakeholders and investors. Let Resolutions Productions Group’s experience producing quarterly sessions and town halls take your message beyond the boardroom. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#event-design-section" href="#support"> <i class="fa fa-eye"></i> Experiential</a>
+                  </h4>
+                </div>
+                <div id="support" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>We are the act in activation. Resolution Productions Group will engineer technologies to capture data and build environments that interact with your audience.  Whether it’s a tradeshow, street marketing campaign or festival, Resolution has the technology to drive engagement.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#event-design-section" href="#help-desk1"><i class="fa fa-road"></i> Road Tours</a>
+                  </h4>
+                </div>
+                <div id="help-desk1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Is a multi-city tour leading your brand launch or national campaign?  Our project management skills and fleet of trucks make it possible for us to travel with you across the country and minimize logistics.</p>
+                  </div>
+                </div>
+              </div>
+            </span>
+            <span class="accordion-section" id="video-section">
+              <div class="panel panel-default">
+                <div class="panel-heading active">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#video-design-section" href="#field-production"> <i class="fa fa-street-view"></i> Field Production</a>
+                  </h4>
+                </div>
+                <div id="field-production" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>From filming interviews on a factory floor to aerial footage in the rainforest, send our experienced crew into the field to capture the highest quality video content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#video-design-section" href="#editorial"> <i class="fa fa-scissors"></i> Editorial</a>
+                  </h4>
+                </div>
+                <div id="editorial" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Bring your story to life with our team of seasoned editors. <a href="">Watch our editing reel here</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#video-design-section" href="#sound-design"> <i class="fa fa-headphones"></i> Sound Design</a>
+                  </h4>
+                </div>
+                <div id="sound-design" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>We mix and sound design for different types of projects: corporate videos, television & radio, short & feature length films, documentaries, commercials, web content and video games. We do this by providing: sound design, sound mixing & sweetening, dialogue replacement (ADR), music search, noise reduction & audio restoration, voice casting, voice over recording (VO), digital patch (ISDN). <a href="">Watch our audio reel here</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#video-design-section" href="#graphics"> <i class="fa fa-paint-brush"></i> Graphics</a>
+                  </h4>
+                </div>
+                <div id="graphics" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Animate your message. Our graphic capabilities range from 2D text animation to 3D projections mapped on buildings. <a href="">Watch our graphics reel here</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#video-design-section" href="#studios"> <i class="fa fa-envelope"></i> Studios</a>
+                  </h4>
+                </div>
+                <div id="studios" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Our facility, with one of the largest shooting stages in Chicago, is a powerhouse of capabilities. We have everything you need within our walls: multiple stages, dressing rooms and workspaces are a few of our offerings – and it serves as a unique place to host an event.</p>
+                  </div>
+                </div>
+              </div>
+            </span>
+            <span class="accordion-section" id="webcast-section">
+              <div class="panel panel-default">
+                <div class="panel-heading active">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#webcast-design-section" href="#continuing-education"> <i class="fa fa-book"></i> Continuing Education</a>
+                  </h4>
+                </div>
+                <div id="continuing-education" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>From pharmaceutical to association, we understand the value of continuing education. We produce online programs that educate and entertain your audience.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#webcast-design-section" href="#broadcast"> <i class="fa fa-video-camera"></i> Broadcast</a>
+                  </h4>
+                </div>
+                <div id="broadcast" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Are you reporting to a global audience?  Resolution Productions Group will coordinate broadcast trucks, satellite times and manage the network connections.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#webcast-design-section" href="#satellite-media-tour"> <i class="fa fa-signal"></i> Satellite Media Tour</a>
+                  </h4>
+                </div>
+                <div id="satellite-media-tour" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Have your PR message delivered live to television networks. Resolution Productions Group is a best-in-class SMT provider. Take it a step further and let us edit and distribute the message as a VNR.  </p>
+                  </div>
+                </div>
+              </div>
+            </span>
+            <span class="accordion-section" id="scenic-section">
+              <div class="panel panel-default">
+                <div class="panel-heading active">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#scenic-design-section" href="#led"> <i class="fa fa-th"></i> LED</a>
+                  </h4>
+                </div>
+                <div id="led" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Upgrade your presentation environment with our high resolution LED (light-emitting diode) displays.  Our inventory includes: hi-res 3mm Indoor, bevel/angle capable 4mm indoor, outdoor 5mm, and flexible 9mm indoor/outdoor. Our tiles are calibrated, matching and our inventory is in the thousands.  We build LED walls and structures for a variety of scenic solutions.  <a href="">Watch our LED sizzle reel here</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#scenic-design-section" href="#projection-screens"> <i class="fa fa-square"></i> Projection Screens</a>
+                  </h4>
+                </div>
+                <div id="projection-screens" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>When it comes to custom screen solutions that best fit your staging requirements, Resolution Productions Group owns and operates one of the largest screen manufacturers in North America. Our screens are available for purchase or rental and we offer repair services.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#scenic-design-section" href="#set-fabrication"> <i class="fa fa-rocket"></i> Set Fabrication</a>
+                  </h4>
+                </div>
+                <div id="set-fabrication" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Don't limit your design to just a traditional surface or screen. Leverage our manufacturing capabilities to build scenic accents for your production. </p>
+                  </div>
+                </div>
+              </div>
+            </span>
 					</div>
 				</div>
 			</div>
@@ -560,8 +567,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/1.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="videos/crowd.mp4" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -569,7 +575,6 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/2.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
@@ -578,7 +583,6 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/3.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
@@ -587,7 +591,6 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/4.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
@@ -596,7 +599,6 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/5.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
@@ -605,7 +607,6 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/6.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
@@ -614,7 +615,6 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/7.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
@@ -623,7 +623,6 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/8.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-link" href="#"><i class="fa fa-link"></i></a>
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>	
@@ -912,6 +911,11 @@
 					</div>
 				</div>
 				<div class="col-sm-6">
+          <?php
+          if ($_SERVER['REQUEST_METHOD'] === "POST") {
+            echo "<strong>Thank you for contact us.</strong>";
+          }
+          ?>
 					<form id="contact-form" name="contact-form" method="post" action="./">
 						<div class="row">
 							<div class="col-sm-6">
@@ -969,8 +973,14 @@
 	</footer><!--/#footer--> 
 	
 	<!--/#scripts--> 
+  <script>
+  function toggleAccordion(section) {
+    $('.accordion-section').hide();
+    $('#' + section + '-section').show();
+  }
+  </script>
   <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>	
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
   <script type="text/javascript" src="js/gmaps.js"></script>
@@ -981,5 +991,15 @@
 	<script type="text/javascript" src="js/canvas.js"></script>
 	<script type="text/javascript" src="js/preloader.js"></script>
   <script type="text/javascript" src="js/main.js"></script>	
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-60713837-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </body>
 </html>

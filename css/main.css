@@ -24,7 +24,12 @@ ul {
   margin:0;
   padding:0;
 }
-
+.accordion-section {
+  display: none;
+}
+.accordion-section.active {
+  display: block;
+}
 .navbar-nav li a:hover, 
 .navbar-nav li a:focus {
   outline:none;
@@ -544,6 +549,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height:25px;
 	border-radius:0 4px 4px 0;
+  min-height: 510px;
 }
 
 .tab-content .tab-pane h2 {
@@ -649,7 +655,7 @@ h1, h2, h3, h4, h5, h6 {
 	position:relative;
 	overflow:hidden;
 	margin-bottom:30px;
-	cursor:url("../images/cursor-point.png") 40 40, crosshair;
+	/*cursor:url("../images/cursor-point.png") 40 40, crosshair;*/
 }
 
 .folio-overlay {
@@ -703,7 +709,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .folio-overlay a.folio-detail {
 	bottom:-150px;
-	right:75px;
+	right:105px;
 	margin-bottom:-25px;
 	margin-left:10px;
 }
@@ -1346,7 +1352,7 @@ span.price {
 ===========================*/
 
 #contact-us {
-	background-image: url("../images/contact-bg.jpg");
+	background-image: url("../images/testimonial/testimonial-bg.jpg");
 	text-transform:inherit;
 }
 
