@@ -19,9 +19,9 @@ jQuery(function($) {'use strict',
 	// Navigation Scroll	
 	$(window).on('scroll', function(){
 		if( $(window).scrollTop()>600 ){
-			$('#navigation .navbar').addClass('navbar-fixed-top');
+			//$('#navigation .navbar').addClass('navbar-fixed-top');
 		} else {
-			$('#navigation .navbar').removeClass('navbar-fixed-top');
+			//$('#navigation .navbar').removeClass('navbar-fixed-top');
 		}
 	});
 
@@ -115,7 +115,7 @@ jQuery(function($) {'use strict',
 			lat: 41.885996,
 			lng: -87.682579,
 			scrollwheel:false,
-			zoom: 16,
+			zoom: 14,
 			zoomControl : true,
 			panControl : false,
 			streetViewControl : false,
@@ -132,7 +132,7 @@ jQuery(function($) {'use strict',
 			animation: google.maps.Animation.DROP,
 			verticalAlign: 'bottom',
 			horizontalAlign: 'center',
-			backgroundColor: '#d3cfcf',
+			backgroundColor: '#f89628',
 		});
 
 
@@ -156,12 +156,12 @@ jQuery(function($) {'use strict',
 		},{
 			"elementType": "labels.text.fill",
 			"stylers": [
-			{ "color": "#d3cfcf" }
+			{ "color": "#f89628" }
 			]
 		},{
 			"featureType": "poi",
 			"stylers": [
-			{ "color": "#f4c2c3" }
+			{ "color": "#f89628" }
 			]
 		},{
 			"elementType": "labels.text",

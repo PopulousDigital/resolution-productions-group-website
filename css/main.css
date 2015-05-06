@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 	background-attachment:fixed;
 	width: 100%;
-	min-height: 350px;
+	min-height: 200px;
 	color: #fff;
 	text-transform: uppercase;
 	font-size:18px;  
@@ -119,8 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .parallax-content {
 	position:relative;	
-	padding-bottom: 100px;
-	padding-top: 80px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .off-white {
@@ -216,6 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 30px;
 	font-weight: 400;
 	margin-bottom:0;
+  text-shadow: 2px 2px 2px #333;
 }
 
 .carousel-caption h2 {
@@ -223,11 +224,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:700;
 	letter-spacing:0;
 	margin-top:12px;
+  text-shadow: 2px 2px 2px #333;
 }
 
 .carousel-caption > p {
 	letter-spacing: 8px;
-	text-shadow: inherit;
+  text-shadow: 2px 2px 2px #333;
 }
 
 .carousel-caption h2 span {
@@ -357,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #navigation .navbar-right li a {
 	color:#000;
-	font-size:14px;
+	font-size:17px;
 	font-weight:600;
 	line-height:68px;
 	height: 100%;
@@ -755,8 +757,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #testimonial-carousel img {
 	display:inline-block;
-	height:80px;
-	width:80px;
+	height:120px;
+	width:120px;
 	margin-bottom:25px;
 }
 
@@ -1362,11 +1364,10 @@ span.price {
 }
 
 .form-control {
-	background-color: transparent;
+	background-color: #eee;
 	background-image: none;
 	border: 1px solid #6a6a6a;
 	border-radius: 0;
-	
 	height: 48px;
 }
 

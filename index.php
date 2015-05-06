@@ -33,7 +33,7 @@
 			<div class="carousel-inner">
 				<div class="item active">
           <video autoplay loop style="width: 100%;">
-            <source src="videos/crowd.mp4" />
+            <source src="videos/video1.mp4" />
           </video>
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>watch how we</strong></h1>
@@ -43,7 +43,7 @@
 				</div>
 				<div class="item">
           <video autoplay loop style="width: 100%;">
-            <source src="videos/traffic.mp4" />
+            <source src="videos/video2.mp4" />
           </video>
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>Ideation. Design. Execution. Learn how we</strong><h1/>
@@ -53,7 +53,7 @@
 				</div>
 				<div class="item">
           <video autoplay loop style="width: 100%;">
-            <source src="videos/skateboard.mp4" />
+            <source src="videos/video3.mp4" />
           </video>
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>Visit our</strong></h1>
@@ -73,7 +73,7 @@
 		</a>
   </div><!--/#main-carousel-->
 	<div id="navigation">
-    <div class="navbar" role="banner">
+    <div class="navbar navbar-fixed-top" role="banner">
       <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -82,7 +82,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1></a>
+            <a class="navbar-brand" href="index.php"><h1><img class="img-responsive" src="img/logo.png" alt="logo"></h1></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -107,9 +107,9 @@
 					<p>Resolution Productions Group is a design and production resource that understands how critical it is for brands to form personal and lasting impressions. Our vertical business model results in a streamlined process for a variety of creative services that empowers our clients to achieve higher creative goals.</p>
 				</div>
 			</div>
-			<div class="bout-us-image">
+			<!--<div class="bout-us-image">
 				<img class="img-responsive" src="img/about-us.png" alt="" />
-			</div>
+			</div>-->
 			<div class="row">
 				<div class="col-md-3 col-sm-6 about-content">
 					<div class="about-icon">
@@ -169,8 +169,8 @@
                   <p>From show to video production, Resolution understands our brand and our needs so we’re continuously able to work efficiently and effectively to achieve great results. <span>Maureen Boyle<br />Director, Creative Services &amp; Events</span> </p>
 								</div>
 								<div class="item">
-									<img class="img-responsive img-circle" src="images/testimonial/client3.jpg" alt="" />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span>CEO, Google</span> </p>
+									<img class="img-responsive img-circle" src="img/logo-slack.png" alt="" />
+                  <p>Resolution is always very high in our consideration list whenever we need high-end digital video and event support. They have an excellent track record of quality and dependability with us, our clients and BMA.<span>Gary Slack, Chief Experience Officer, Slack and Company<br />VP of Professional Development, BMA</span></p>
 								</div>
 							</div>
 						</div>
@@ -180,17 +180,6 @@
 		</div>
 	</div><!--/#testimonial--> 
   <?php /* ?>
-	
-	<div id="promo-one" class="parallax-section">
-		<div class="parallax-content">
-			<div class="color-overlay"></div>
-			<div class="container text-center">
-				<h2>Octopus has unique and modern design!</h2>
-				<p>Designed for Creative Agency</p>
-				<a href="#" class="btn btn-primary">Buy Theme</a>
-			</div>
-		</div>		
-	</div><!--/parallax-section--> 
 	
 	<section id="why-us" class="padding-top">
 		<div class="container">
@@ -547,6 +536,21 @@
 			</div>
 		</div>
 	</section><!--/#creative-->
+	<div id="promo-one" class="parallax-section">
+		<div class="parallax-content">
+			<div class="color-overlay"></div>
+			<div class="container text-center">
+				<h2>Stay Connected</h2>
+				<p>We’d love to keep you in the loop on upcoming rooftop parties, open houses and other fun information. We don’t enjoy being spammed and don’t expect you to either.</p>
+        <form>
+          <input type="text" class="form-control" placeholder="First Name" />
+          <input type="text" class="form-control" placeholder="Last Name" />
+          <input type="text" class="form-control" placeholder="Email" />
+          <button type="submit" class="btn btn-submit">Sign Up</button>
+        </form>
+			</div>
+		</div>
+	</div><!--/parallax-section--> 
 	<section id="portfolio" class="padding-top padding-bottom off-white">
 		<div class="container">
 			<div class="row text-center section-title">
@@ -907,7 +911,8 @@
 				<div class="row text-center section-title">
 					<div class="col-sm-8 col-sm-offset-2">
 						<h2>Contact Us</h2>
-						<p>We’d love to keep you in the loop on upcoming rooftop parties, open houses and other fun information. We don’t enjoy being spammed and don’t expect you to either.</p>
+						<!--<p>We’d love to keep you in the loop on upcoming rooftop parties, open houses and other fun information. We don’t enjoy being spammed and don’t expect you to either.</p>-->
+            <p>We look forward to hearing from you. If you would like to submit an RFP – please do so to the email address provided below.</p>
 					</div>
 				</div>
 				<div class="col-sm-6">
@@ -942,13 +947,12 @@
 				</div>
 				<div class="col-sm-6">
 					<div class="contact-info">
-						<h3>Contact Info</h3>
 						<ul>
 							<li><i class="fa fa-phone"></i> Phone: 312.243.8230</li>
 							<li><i class="fa fa-map-marker"></i>  2226 West Walnut Street, Chicago, IL 60612</li>
 							<li><i class="fa fa-envelope"></i><a href="mailto:info@resolutionproductionsgroup.com"> info@resolutionproductionsgroup.com</a></li>
 						</ul>
-						<p>We’d love to have a conversation with you so please reach out.</p>
+						<!--<p>We’d love to have a conversation with you so please reach out.</p>-->
 						<div class="social-icons">
 							<h3>Get in Touch</h3>
 							<ul>
