@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Resolution Productions Group">
     <title>Resolution Productions Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600italic,600,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head>
+  </head>
 <body>
 	<!-- Page Loader -->
 	<div class="preloader">
-    <div id="loaderImage"></div>
+    <div id="loaderImage">
+      <img src="img/loader.gif" />
+    </div>
   </div>
 	<div id="main-carousel">
 		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -38,7 +40,7 @@
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>watch how we</strong></h1>
 						<h2 class="animated zoomIn">TELL YOUR STORIES</h2>
-						<p class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#">click here</a></p>
+						<h1 class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#creative" style="color: #f89628;">click here</a></h1>
 					</div>
 				</div>
 				<div class="item">
@@ -48,7 +50,7 @@
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>Ideation. Design. Execution. Learn how we</strong><h1/>
 						<h2 class="animated zoomIn">TAKE YOUR MESSAGE</h2>
-						<p class="animated fadeInDownBig"><strong>from concept to delivery.</strong><br /><a href="#">click here</a></p>
+						<h1 class="animated fadeInDownBig"><strong>from concept to delivery.</strong><br /><a href="#creative" style="color: #f89628;">click here</a></h1>
 					</div>
 				</div>
 				<div class="item">
@@ -58,7 +60,7 @@
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>Visit our</strong></h1>
 						<h2 class="animated zoomIn">PORTFOLIO</h2>
-						<p class="animated fadeInDownBig"><strong>to view our creative projects.</strong><br /><a href="#">click here</a></p>
+						<h1 class="animated fadeInDownBig"><strong>to view our creative projects.</strong><br /><a href="#portfolio" style="color: #f89628;">click here</a></h1>
 					</div>
 				</div>
 			</div>
@@ -112,7 +114,7 @@
 			</div>-->
 			<div class="row">
 				<div class="col-md-3 col-sm-6 about-content">
-					<div class="about-icon">
+					<div class="about-icon" onclick="document.location='#creative'; toggleAccordion('event-design');">
 						<i class="fa fa-users"></i>
 					</div>
 					<div class="about-text">
@@ -121,7 +123,7 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">
-					<div class="about-icon">
+					<div class="about-icon" onclick="document.location='#creative'; toggleAccordion('video');">
 						<i class="fa fa-film"></i>
 					</div>
 					<div class="about-text">
@@ -130,7 +132,7 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">
-					<div class="about-icon">
+					<div class="about-icon" onclick="document.location='#creative'; toggleAccordion('webcast');">
             <i class="fa fa-wifi"></i>
 					</div>
 					<div class="about-text">
@@ -138,9 +140,9 @@
 						<p>Online Learning at the speed<br />of digital</p>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 about-content">					
-					<div class="about-icon">
-						<i class="fa fa-picture-o"></i>							
+				<div class="col-md-3 col-sm-6 about-content">
+					<div class="about-icon" onclick="document.location='#creative'; toggleAccordion('scenic');">
+						<i class="fa fa-picture-o"></i>
 					</div>
 					<div class="about-text">
 						<h3>Scenic</h3>
@@ -162,15 +164,15 @@
 							<div class="carousel-inner text-center">
 								<div class="item active">
 									<img class="img-responsive img-circle" src="img/logo-alas.png" alt="" />
-                  <p>Resolution consistently delivers excellent work, on time and on budget. They’ve got the experience, the resources and the facilities we need to help us get our message out. <span>Bob Denby<br />Senior Vice President – Loss Prevention</span> </p>
+                  <p>&ldquo;Resolution consistently delivers excellent work, on time and on budget. They’ve got the experience, the resources and the facilities we need to help us get our message out.&rdquo; <span>Bob Denby<br />Senior Vice President – Loss Prevention</span> </p>
 								</div>
 								<div class="item">
 									<img class="img-responsive img-circle" src="img/logo-cars.png" alt="" />
-                  <p>From show to video production, Resolution understands our brand and our needs so we’re continuously able to work efficiently and effectively to achieve great results. <span>Maureen Boyle<br />Director, Creative Services &amp; Events</span> </p>
+                  <p>&ldquo;From show to video production, Resolution understands our brand and our needs so we’re continuously able to work efficiently and effectively to achieve great results.&rdquo; <span>Maureen Boyle<br />Director, Creative Services &amp; Events</span> </p>
 								</div>
 								<div class="item">
 									<img class="img-responsive img-circle" src="img/logo-slack.png" alt="" />
-                  <p>Resolution is always very high in our consideration list whenever we need high-end digital video and event support. They have an excellent track record of quality and dependability with us, our clients and BMA.<span>Gary Slack, Chief Experience Officer, Slack and Company<br />VP of Professional Development, BMA</span></p>
+                  <p>&ldquo;Resolution is always very high in our consideration list whenever we need high-end digital video and event support. They have an excellent track record of quality and dependability with us, our clients and BMA.&rdquo;<span>Gary Slack, Chief Experience Officer, Slack and Company<br />VP of Professional Development, BMA</span></p>
 								</div>
 							</div>
 						</div>
@@ -296,7 +298,7 @@
 		</div>		
 	</div><!--/parallax-section-->		
 	*/ ?>
-	<section id="creative" class="padding-top padding-bottom">
+	<section id="creative" class="padding-top padding-bottom" style="background: url(img/bg-creative.jpg) center center no-repeat; background-size: cover;">
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
@@ -309,10 +311,10 @@
 					<div class="row octopus-tab">
 						<div class="col-sm-3">
 							<ul class="tab-list" role="tablist">
-								<li class="active"><a href="#html5" role="tab" data-toggle="tab" onclick="toggleAccordion('event-design')"><i class="fa fa-users"></i> Event Design</a></li>
-								<li><a href="#css3" role="tab" data-toggle="tab" onclick="toggleAccordion('video')"><i class="fa fa-film"></i> Video</a></li>
-								<li><a href="#webcast" role="tab" data-toggle="tab" onclick="toggleAccordion('webcast')"><i class="fa fa-wifi"></i> Webcast</a></li>
-								<li><a href="#scenic" role="tab" data-toggle="tab" onclick="toggleAccordion('scenic')"><i class="fa fa-picture-o"></i> Scenic</a></li>
+								<li class="active"><a href="#html5" role="tab" data-toggle="tab" onclick="toggleAccordion('event-design')"><i class="fa fa-users"></i> <div>Event Design</div></a></li>
+								<li><a href="#css3" role="tab" data-toggle="tab" onclick="toggleAccordion('video')"><i class="fa fa-film"></i> <div>Video</div></a></li>
+								<li><a href="#webcast" role="tab" data-toggle="tab" onclick="toggleAccordion('webcast')"><i class="fa fa-wifi"></i> <div>Webcast</div></a></li>
+								<li><a href="#scenic" role="tab" data-toggle="tab" onclick="toggleAccordion('scenic')"><i class="fa fa-picture-o"></i> <div>Scenic</div></a></li>
 							</ul>
 						</div>
 						<div class="col-sm-9">
@@ -540,13 +542,23 @@
 		<div class="parallax-content">
 			<div class="color-overlay"></div>
 			<div class="container text-center">
-				<h2>Stay Connected</h2>
+				<h2>STAY CONNECTED</h2>
+        <div class="col-sm-8 col-sm-offset-2">
 				<p>We’d love to keep you in the loop on upcoming rooftop parties, open houses and other fun information. We don’t enjoy being spammed and don’t expect you to either.</p>
+        </div>
         <form>
-          <input type="text" class="form-control" placeholder="First Name" />
-          <input type="text" class="form-control" placeholder="Last Name" />
-          <input type="text" class="form-control" placeholder="Email" />
-          <button type="submit" class="btn btn-submit">Sign Up</button>
+				  <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="First Name" />
+          </div>
+				  <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="Last Name" />
+          </div>
+				  <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="Email" />
+          </div>
+          <div class="col-sm-3 ">
+            <button type="submit" class="btn btn-submit" style="margin: 0;">Sign Up</button>
+          </div>
         </form>
 			</div>
 		</div>
@@ -563,15 +575,15 @@
 				<ul class="portfolio-filter text-center">
 					<li><a class="active" href="#" data-filter="*">All</a></li>
 					<li><a href="#" data-filter=".photography">Live Events</a></li>
-					<li><a href="#" data-filter=".video">Production</a></li>
-					<li><a href="#" data-filter=".print-design">Video</a></li>
+					<li><a href="#" data-filter=".video">Video</a></li>
+					<li><a href="#" data-filter=".print-design">Scenic</a></li>
 				</ul><!--/#portfolio-filter-->
 				<div class="row portfolio-items">
 					<div class="col-sm-4 col-md-3 portfolio-item print-design video">
 						<div class="portfolio-content">
 							<img class="img-responsive" src="images/portfolio/1.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="videos/crowd.mp4" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="img/about-us.png" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -971,7 +983,10 @@
 	<div id="gmap"></div><!--/#gmap-->
 	<footer id="footer">
 		<div class="container text-center">
-			<p>&copy; <?php echo date("Y"); ?> <a href="#">Resolution Productions Group</a>. All rights reserved.</p>
+			<p>
+        &copy; <?php echo date("Y"); ?> <a href="#">Resolution Productions Group</a>. All rights reserved.<br />
+        <a href="">Legal</a> &nbsp;&bull;&nbsp; <a href="">Terms</a> &nbsp;&bull;&nbsp; <a href="">Privacy</a>
+      </p>
 		</div>
 		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
 	</footer><!--/#footer--> 
@@ -993,7 +1008,6 @@
 	<script type="text/javascript" src="js/jquery.countTo.js"></script>
 	<script type="text/javascript" src="js/smooth-scroll.js"></script>
 	<script type="text/javascript" src="js/canvas.js"></script>
-	<script type="text/javascript" src="js/preloader.js"></script>
   <script type="text/javascript" src="js/main.js"></script>	
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

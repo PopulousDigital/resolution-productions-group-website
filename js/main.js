@@ -124,7 +124,7 @@ jQuery(function($) {'use strict',
 			clickable: false
 		});
 
-		var image = '';
+		var image = '/img/ico-gmap.png';
 		map.addMarker({
 			lat: 41.885996,
 			lng: -87.682579,
@@ -146,22 +146,18 @@ jQuery(function($) {'use strict',
 		},{
 			"featureType": "water",
 			"stylers": [
-			{ "color": "#ffb0b2" }
 			]
 		},{
 			"featureType": "landscape",
 			"stylers": [
-			{ "color": "#f5ecec" }
 			]
 		},{
 			"elementType": "labels.text.fill",
 			"stylers": [
-			{ "color": "#f89628" }
 			]
 		},{
 			"featureType": "poi",
 			"stylers": [
-			{ "color": "#f89628" }
 			]
 		},{
 			"elementType": "labels.text",
@@ -177,11 +173,9 @@ jQuery(function($) {'use strict',
 		map.addStyle({
 			styledMapName:"Styled Map",
 			styles: styles,
-			mapTypeId: "map_style"  
+			mapTypeId: "map_style"
 		});
 
 		map.setStyle("map_style");
-	}());		
-	
-	
+	}());
 });

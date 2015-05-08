@@ -34,4 +34,4 @@ var cSpeed=9;
 	}
 	
 	//The following code starts the animation
-	new imageLoader(cImageSrc, 'startAnimation()');
+	//new imageLoader(cImageSrc, 'startAnimation()');
