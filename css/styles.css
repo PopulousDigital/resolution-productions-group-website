@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 76px;
 	margin-bottom:15px;
 	border-radius: 4px;
-	color: #333333;
+	color: #655c58;
 	font-size: 30px;
 	text-align:center;
 	border:1px solid #333;
@@ -446,7 +446,8 @@ h1, h2, h3, h4, h5, h6 {
 .about-text h3 {
 	font-size:24px;
 	color:#655c58;
-	margin-bottom:18px;
+  margin-top: 5px;
+	margin-bottom:8px;
 }
 
 /*=========================
