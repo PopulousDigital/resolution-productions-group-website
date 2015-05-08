@@ -523,7 +523,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#scenic-design-section" href="#set-fabrication"> <i class="fa fa-rocket"></i> Set Fabrication</a>
+                    <a data-toggle="collapse" data-parent="#scenic-design-section" href="#set-fabrication"> <i class="fa fa-wrench"></i> Set Fabrication</a>
                   </h4>
                 </div>
                 <div id="set-fabrication" class="panel-collapse collapse">
