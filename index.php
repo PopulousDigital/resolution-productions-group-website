@@ -1,4 +1,4 @@
-<?php require("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
   <div id="main-carousel">
 		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
@@ -9,7 +9,7 @@
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>watch how we</strong></h1>
 						<h2 class="animated zoomIn">TELL YOUR STORIES</h2>
-						<h1 class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#creative" style="color: #f89628;">click here</a></h1>
+						<h1 class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#portfolio" style="color: #f89628;">click here</a></h1>
 					</div>
 				</div>
 				<div class="item">
@@ -43,7 +43,7 @@
 			</div>
 		</a>
   </div><!--/#main-carousel-->
-  <?php require("includes/nav.php"); ?>
+  <?php include("includes/nav.php"); ?>
 	<section id="about-us" class="padding-top off-white">
 		<div class="container text-center">
 			<div class="row section-title">
@@ -85,7 +85,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6 about-content">
 					<div class="about-icon" onclick="document.location='#creative'; toggleAccordion('scenic');">
-						<i class="fa fa-picture-o"></i>
+						<i class="fa fa-cubes"></i>
 					</div>
 					<div class="about-text">
 						<h3>Scenic</h3>
@@ -257,7 +257,7 @@
 								<li class="active"><a href="#html5" role="tab" data-toggle="tab" onclick="toggleAccordion('event-design')"><i class="fa fa-users"></i> <div>Event Design</div></a></li>
 								<li><a href="#css3" role="tab" data-toggle="tab" onclick="toggleAccordion('video')"><i class="fa fa-film"></i> <div>Video</div></a></li>
 								<li><a href="#webcast" role="tab" data-toggle="tab" onclick="toggleAccordion('webcast')"><i class="fa fa-wifi"></i> <div>Webcast</div></a></li>
-								<li><a href="#scenic" role="tab" data-toggle="tab" onclick="toggleAccordion('scenic')"><i class="fa fa-picture-o"></i> <div>Scenic</div></a></li>
+								<li><a href="#scenic" role="tab" data-toggle="tab" onclick="toggleAccordion('scenic')"><i class="fa fa-cubes"></i> <div>Scenic</div></a></li>
 							</ul>
 						</div>
 						<div class="col-sm-9">
@@ -390,7 +390,7 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#video-design-section" href="#studios"> <i class="fa fa-envelope"></i> Studios</a>
+                    <a data-toggle="collapse" data-parent="#video-design-section" href="#studios"> <i class="fa fa-bullhorn"></i> Studios</a>
                   </h4>
                 </div>
                 <div id="studios" class="panel-collapse collapse">
@@ -526,7 +526,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-editorial.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="img/about-us.png" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="#" onclick="portfolio.open('editorial'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -534,8 +534,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-graphic-design.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-                <p>test</p>
+								<a class="folio-detail" href="#" onclick="portfolio.open('graphic-design'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -543,7 +542,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-led-sizzle.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="#" onclick="portfolio.open('led-sizzle'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -551,7 +550,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-rpg-sizzle.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="#" onclick="portfolio.open('rpg-sizzle'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -559,7 +558,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-screenworks.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="#" onclick="portfolio.open('screenworks'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -567,7 +566,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-sound-design.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="#" onclick="portfolio.open('sound-design'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -575,7 +574,7 @@
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-usg-launch.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="#" onclick="portfolio.open('usg-launch'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -907,8 +906,7 @@
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -917,4 +915,9 @@
 		</div>
 	</section><!--/#contact-us-->	
 	<div id="gmap"></div><!--/#gmap-->
-<?php require("includes/footer.php"); ?>
+  <div class="portfolio-blanket" id="portfolio-blanket">
+    <div class="portfolio-close" id="portfolio-close" onclick="portfolio.close();"><i class="fa fa-close"></i></div>
+    <div class="portfolio-modal" id="portfolio-modal"></div>
+    <div class="portfolio-headline" id="portfolio-headline"></div>
+  </div>
+<?php include("includes/footer.php"); ?>

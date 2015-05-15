@@ -2,7 +2,7 @@
 		<div class="container text-center">
 			<p>
         &copy; Ops 3 LLC.  All rights reserved. <br />
-        <a href="/legal">Legal</a>
+        <a href="/legal.php">Legal</a>
       </p>
 		</div>
 		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
@@ -25,7 +25,8 @@
 	<script type="text/javascript" src="js/jquery.countTo.js"></script>
 	<script type="text/javascript" src="js/smooth-scroll.js"></script>
 	<script type="text/javascript" src="js/canvas.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>	
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/portfolio.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

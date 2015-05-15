@@ -124,7 +124,7 @@ jQuery(function($) {'use strict',
 			clickable: false
 		});
 
-		var image = '/img/ico-gmap.png';
+		var image = 'img/marker.png';
 		map.addMarker({
 			lat: 41.885996,
 			lng: -87.682579,

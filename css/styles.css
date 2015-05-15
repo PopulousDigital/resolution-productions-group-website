@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
 .tab-content .tab-pane {	
 	margin-left: -30px;
 	padding:15px 57px 30px;
-	color: #333;
+	color: #655c58;;
 	font-size: 14px;
 	font-weight: 400;
 	line-height:25px;
@@ -634,6 +634,39 @@ h1, h2, h3, h4, h5, h6 {
 =======Portfolio CSS=======
 ===========================*/
 
+.portfolio-blanket {
+  background: rgba(0, 0, 0, .8);
+  display: none;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999999;
+}
+.portfolio-close {
+  color: #fff;
+  cursor: pointer;
+  font-size: 40px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  z-index: 1000000;
+}
+.portfolio-headline {
+  color: #fff;
+  bottom: 0px;
+  position: absolute;
+  right: 20px;
+  text-shadow: 2px 2px 2px #000;
+  z-index: 1000000;
+}
+.portfolio-modal {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
 .portfolio-filter {
 	overflow:hidden;
 	margin-bottom:65px;
@@ -1375,7 +1408,7 @@ span.price {
 ===========================*/
 
 #contact-us {
-	background-image: url("../img/bg-contact1.jpg");
+	background-image: url("../img/bg-contact.jpg");
 	text-transform:inherit;
 }
 
