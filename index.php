@@ -9,7 +9,7 @@
 					<div class="carousel-caption">
 						<h1 class="animated fadeInUpBig"><strong>watch how we</strong></h1>
 						<h2 class="animated zoomIn">TELL YOUR STORIES</h2>
-						<h1 class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#portfolio" style="color: #f89628;">click here</a></h1>
+						<h1 class="animated fadeInDownBig"><strong>through visual experiences.</strong><br /><a href="#" onclick="portfolio.open('rpg-sizzle'); return false;" style="color: #f89628;">click here</a></h1>
 					</div>
 				</div>
 				<div class="item">

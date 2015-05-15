@@ -12,7 +12,7 @@
 				<div class="col-sm-8 col-sm-offset-2">
           <h1>Legal</h1>
           <p>Resolution Productions Group is an assumed name of Ops 3 LLC. If you have questions or comments about this website, its content, our services, or other information concerning our business operations, you may use our "contact" interface or write or call us:</p>
-          <p>Ops 3 LLC<br />2226 W. Walnut Chicago, IL 60612 312.243.8230</p>
+          <p>Ops 3 LLC<br />2226 W. Walnut Chicago, IL 60612<br />312.243.8230</p>
           <p>Ops 3 LLC is an Illinois Limited Liability Company. Ops 3 has other assumed business names, including: Show Department, Resolution Digital Studios, The Screen Works, and Screen Source.</p>
           <p><strong>Trademarks:</strong> We claim a Service Mark for Resolution Productions Group (as a whole, see below) and Screen Source. Ops 3 LLC has registered various marks or variants, and logos, with the US Patent and Trademark Office, including: Show Department, Resolution Digital Studios, and The Screen Works. Our registered design trademarks include:</p>
           <p style="text-align: center; margin: 40px 0;">

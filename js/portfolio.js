@@ -53,9 +53,11 @@ var portfolio = {
     var $headline = $('#portfolio-headline');
     var $modal = $('#portfolio-modal');
     var html = '';
-    html += '<video autoplay loop controls style="width: 100%;" id="portfolio-video">';
-    html += '<source src="videos/' + portfolio.content[content].file + '.mp4"></source>';
-    html += '</video>';
+    if (portfolio.content[content].type === 'video') {
+      html += '<video autoplay loop controls style="width: 100%;" id="portfolio-video">';
+      html += '<source src="videos/' + portfolio.content[content].file + '.mp4"></source>';
+      html += '</video>';
+    }
     $modal.html(html);
     $headline.html('<h1>' + portfolio.content[content].headline + '</h1>');
     $blanket.show();
