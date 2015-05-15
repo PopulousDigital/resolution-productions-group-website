@@ -1,36 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Resolution Productions Group">
-    <title>Resolution Productions Group</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600italic,600,700' rel='stylesheet' type='text/css'>
-    <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-  </head>
-<body>
-	<!-- Page Loader -->
-	<div class="preloader">
-    <div id="loaderImage">
-      <img src="img/loader.gif" />
-    </div>
-  </div>
-	<div id="main-carousel">
+<?php require("includes/header.php"); ?>
+  <div id="main-carousel">
 		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="item active">
@@ -48,7 +17,7 @@
             <source src="videos/video2.mp4" />
           </video>
 					<div class="carousel-caption">
-						<h1 class="animated fadeInUpBig"><strong>Ideation. Design. Execution. Learn how we</strong><h1/>
+						<h1 class="animated fadeInUpBig"><strong>Learn how we</strong><h1/>
 						<h2 class="animated zoomIn">TAKE YOUR MESSAGE</h2>
 						<h1 class="animated fadeInDownBig"><strong>from concept to delivery.</strong><br /><a href="#creative" style="color: #f89628;">click here</a></h1>
 					</div>
@@ -74,33 +43,7 @@
 			</div>
 		</a>
   </div><!--/#main-carousel-->
-	<div id="navigation">
-    <div class="navbar navbar-fixed-top" role="banner">
-      <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.php"><h1><img class="img-responsive" src="img/logo.png" alt="logo"></h1></a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="scroll"><a href="#main-carousel">Home</a></li>
-            <li class="scroll"><a href="#about-us">About Us</a></li>
-            <li class="scroll"><a href="#creative">Creative</a></li>
-            <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-            <li class="scroll"><a href="#contact-us">Contact</a></li>
-<!--
-            <li class="scroll"><a href="#blog">Blog</a></li>
-            <li class="scroll"><a href="#social">Social</a></li>
--->
-          </ul>
-        </div>
-      </div>
-    </div><!--/#navigation-->
+  <?php require("includes/nav.php"); ?>
 	<section id="about-us" class="padding-top off-white">
 		<div class="container text-center">
 			<div class="row section-title">
@@ -298,7 +241,7 @@
 		</div>		
 	</div><!--/parallax-section-->		
 	*/ ?>
-	<section id="creative" class="padding-top padding-bottom" style="background: url(img/bg-creative.jpg) center center no-repeat; background-size: cover;">
+	<section id="creative" class="padding-top padding-bottom">
 		<div class="container">
 			<div class="row text-center section-title">
 				<div class="col-sm-8 col-sm-offset-2">
@@ -366,7 +309,7 @@
                 </div>
                 <div id="customization" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Make your C-suite look great when presenting to stakeholders and investors. Let Resolutions Productions Group’s experience producing quarterly sessions and town halls take your message beyond the boardroom. </p>
+                    <p>Make your C-suite look great when presenting to stakeholders and investors. Let Resolution Productions Group’s experience producing quarterly sessions and town halls take your message beyond the boardroom. </p>
                   </div>
                 </div>
               </div>
@@ -428,7 +371,7 @@
                 </div>
                 <div id="sound-design" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>We mix and sound design for different types of projects: corporate videos, television & radio, short & feature length films, documentaries, commercials, web content and video games. We do this by providing: sound design, sound mixing & sweetening, dialogue replacement (ADR), music search, noise reduction & audio restoration, voice casting, voice over recording (VO), digital patch (ISDN). <a href="">Watch our audio reel here</a>.</p>
+                    <p>We mix and sound design for different types of projects: corporate videos, television & radio, short & feature length films, documentaries, commercials, web content and video games. We do this by providing: sound design, sound mixing & sweetening, dialogue replacement (ADR), music search, noise reduction & audio restoration, voice-casting, voice-over recording (VO), digital patch (ISDN). <a href="">Watch our audio reel here</a>.</p>
                   </div>
                 </div>
               </div>
@@ -452,7 +395,7 @@
                 </div>
                 <div id="studios" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Our facility, with one of the largest shooting stages in Chicago, is a powerhouse of capabilities. We have everything you need within our walls: multiple stages, dressing rooms and workspaces are a few of our offerings – and it serves as a unique place to host an event.</p>
+                    <p>Our facility, with one of the largest shooting stages in Chicago, is a powerhouse of capabilities. We have everything you need within our walls &mdash; multiple stages, dressing rooms and workspaces are a few of our offerings. We serve as a unique place to host an event.</p>
                   </div>
                 </div>
               </div>
@@ -581,7 +524,7 @@
 				<div class="row portfolio-items">
 					<div class="col-sm-4 col-md-3 portfolio-item print-design video">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-editorial.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-detail" href="img/about-us.png" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
@@ -589,15 +532,16 @@
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item graphic video">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-graphic-design.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
+                <p>test</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item print-design art">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-led-sizzle.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
@@ -605,7 +549,7 @@
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item video art photography">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-rpg-sizzle.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
@@ -613,7 +557,7 @@
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item video art">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-screenworks.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
@@ -621,7 +565,7 @@
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item photography graphic">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-sound-design.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
@@ -629,21 +573,13 @@
 					</div>
 					<div class="col-sm-4 col-md-3 portfolio-item video art">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-usg-launch.jpg" alt="">
 							<div class="folio-overlay">
 								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item photography graphic print-design">
-						<div class="portfolio-content">
-							<img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-							<div class="folio-overlay">
-								<a class="folio-detail" href="images/portfolio/port-full.jpg" data-gallery="prettyPhoto"><i class="fa fa-plus"></i></a>
-							</div>
-						</div>	
-					</div>					
-				</div>				
+				</div>
 			</div>
 		</div>
 	</section><!--/#portfolio-->	
@@ -981,43 +917,4 @@
 		</div>
 	</section><!--/#contact-us-->	
 	<div id="gmap"></div><!--/#gmap-->
-	<footer id="footer">
-		<div class="container text-center">
-			<p>
-        &copy; <?php echo date("Y"); ?> <a href="#">Resolution Productions Group</a>. All rights reserved.<br />
-        <a href="">Legal</a> &nbsp;&bull;&nbsp; <a href="">Terms</a> &nbsp;&bull;&nbsp; <a href="">Privacy</a>
-      </p>
-		</div>
-		<a data-scroll href="#main-carousel" class="to-top"><i class="fa fa-angle-up"></i></a>
-	</footer><!--/#footer--> 
-	
-	<!--/#scripts--> 
-  <script>
-  function toggleAccordion(section) {
-    $('.accordion-section').hide();
-    $('#' + section + '-section').show();
-  }
-  </script>
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  <script type="text/javascript" src="js/gmaps.js"></script>
-  <script type="text/javascript" src="js/jquery.parallax.js"></script>
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/jquery.countTo.js"></script>
-	<script type="text/javascript" src="js/smooth-scroll.js"></script>
-	<script type="text/javascript" src="js/canvas.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>	
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-60713837-2', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-</body>
-</html>
+<?php require("includes/footer.php"); ?>

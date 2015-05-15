@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight:300;
   color: #655c58;
   background-color: #fff;
@@ -72,21 +72,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-	margin-bottom: 80px;
 	overflow: hidden;
 	padding-bottom: 32px;
 	position: relative;
-}
-
-.section-title:after {
-	position:absolute;
-	content:"";
-	left:50%;
-	bottom:0;
-	height:2px;
-	width:56px;
-	background-color:#d9d9d9;
-	margin-left:-28px;
 }
 
 .section-title h2 {	
@@ -776,6 +764,10 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform:inherit
 }
 
+.img-circle {
+  border-radius: 0 !important;
+}
+
 #testimonial .parallax-content {
 	padding-bottom: 105px;
 	padding-top: 115px;
@@ -1383,7 +1375,7 @@ span.price {
 ===========================*/
 
 #contact-us {
-	background-image: url("../img/bg-contact.jpg");
+	background-image: url("../img/bg-contact1.jpg");
 	text-transform:inherit;
 }
 
