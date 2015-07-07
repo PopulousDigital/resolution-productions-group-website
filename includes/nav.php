@@ -17,6 +17,7 @@
             <li class="scroll"><a href="/#creative">Creative</a></li>
             <li class="scroll"><a href="/#portfolio">Portfolio</a></li>
             <li class="scroll"><a href="/#contact-us">Contact</a></li>
+            <li class="scroll"><a href="http://media.rdschicago.com" target="_new">Client Login</a></li>
 <!--
             <li class="scroll"><a href="#blog">Blog</a></li>
             <li class="scroll"><a href="#social">Social</a></li>

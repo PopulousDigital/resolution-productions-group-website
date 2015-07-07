@@ -1,5 +1,11 @@
 var portfolio = {
   content : {
+    'aon' : {
+      'type' : 'image',
+      'file' : 'aon',
+      'headline' : 'Editorial Reel',
+      'subtitle' : 'This is the editorial reel'
+    },
     'editorial' : {
       'type' : 'video',
       'file' : 'editorial',
@@ -16,6 +22,12 @@ var portfolio = {
       'type' : 'video',
       'file' : 'led-sizzle',
       'headline' : 'LED Sizzle Reel',
+      'subtitle' : 'This is the editorial reel'
+    },
+    'metro' : {
+      'type' : 'image',
+      'file' : 'metro',
+      'headline' : 'Editorial Reel',
       'subtitle' : 'This is the editorial reel'
     },
     'rpg-sizzle' : {
@@ -36,6 +48,12 @@ var portfolio = {
       'headline' : 'Sound Design Reel',
       'subtitle' : 'This is the editorial reel'
     },
+    'usg' : {
+      'type' : 'image',
+      'file' : 'usg',
+      'headline' : 'USG Global Brand Launch',
+      'subtitle' : 'This is the editorial reel'
+    },
     'usg-launch' : {
       'type' : 'video',
       'file' : 'usg-launch',
@@ -53,13 +71,16 @@ var portfolio = {
     var $headline = $('#portfolio-headline');
     var $modal = $('#portfolio-modal');
     var html = '';
-    if (portfolio.content[content].type === 'video') {
+    if (portfolio.content[content].type === 'image') {
+      html += '<img src="img/portfolio-' + portfolio.content[content].file + '.jpg" class="portfolio-image" />';
+      $modal.html(html);
+    } else if (portfolio.content[content].type === 'video') {
       html += '<video autoplay loop controls style="width: 100%;" id="portfolio-video">';
       html += '<source src="videos/' + portfolio.content[content].file + '.mp4"></source>';
       html += '</video>';
+      $modal.html(html);
+      $headline.html('<h1>' + portfolio.content[content].headline + '</h1>');
     }
-    $modal.html(html);
-    $headline.html('<h1>' + portfolio.content[content].headline + '</h1>');
     $blanket.show();
     $modal.show();
     if ($(window).height() < $modal.height()) {

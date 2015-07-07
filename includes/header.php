@@ -1,9 +1,10 @@
+<?php require(".local.inc.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Resolution is a single-source provider for event design and execution, video and post production, broadcast and webcast, LED and set fabrication.">
     <meta name="author" content="Resolution Productions Group">
     <title>Resolution Productions Group</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">

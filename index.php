@@ -3,7 +3,7 @@
 		<div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="item active">
-          <video autoplay loop style="width: 100%;">
+          <video autoplay loop style="width: 100%;" poster="img/video1-poster.png">
             <source src="videos/video1.mp4" />
           </video>
 					<div class="carousel-caption">
@@ -254,20 +254,20 @@
 					<div class="row octopus-tab">
 						<div class="col-sm-3">
 							<ul class="tab-list" role="tablist">
-								<li class="active"><a href="#html5" role="tab" data-toggle="tab" onclick="toggleAccordion('event-design')"><i class="fa fa-users"></i> <div>Event Design</div></a></li>
-								<li><a href="#css3" role="tab" data-toggle="tab" onclick="toggleAccordion('video')"><i class="fa fa-film"></i> <div>Video</div></a></li>
-								<li><a href="#webcast" role="tab" data-toggle="tab" onclick="toggleAccordion('webcast')"><i class="fa fa-wifi"></i> <div>Webcast</div></a></li>
-								<li><a href="#scenic" role="tab" data-toggle="tab" onclick="toggleAccordion('scenic')"><i class="fa fa-cubes"></i> <div>Scenic</div></a></li>
+								<li class="active" id="event-tab"><a href="#event" role="tab" data-toggle="tab" onclick="toggleAccordion('event-design')"><i class="fa fa-users"></i> <div>Event Design</div></a></li>
+								<li id="video-tab"><a href="#video" role="tab" data-toggle="tab" onclick="toggleAccordion('video')"><i class="fa fa-film"></i> <div>Video</div></a></li>
+								<li id="webcast-tab"><a href="#webcast" role="tab" data-toggle="tab" onclick="toggleAccordion('webcast')"><i class="fa fa-wifi"></i> <div>Webcast</div></a></li>
+								<li id="scenic-tab"><a href="#scenic" role="tab" data-toggle="tab" onclick="toggleAccordion('scenic')"><i class="fa fa-cubes"></i> <div>Scenic</div></a></li>
 							</ul>
 						</div>
 						<div class="col-sm-9">
 							<div class="tab-content">
-								<div class="tab-pane fade in active off-white" id="html5">
+								<div class="tab-pane fade in active off-white" id="event">
 									<h2>Event Design</h2>
 									<img class="img-responsive" src="img/creative-event.jpg" alt="accordion" />
 									<p>Bring us to the table early and alleviate your communication logistics by working with one vendor. Resolution Productions Group brings 30+ years experience working in the live event industry to help you theme, design and execute your goals.</p>
 								</div>
-								<div class="tab-pane fade off-white" id="css3">
+								<div class="tab-pane fade off-white" id="video">
 									<h2>Video</h2>
 									<img class="img-responsive" src="img/creative-video.jpg" alt="accordion" />
 									<p>Your content deserves the best. Resolution Productions Group is a full-service media production company. Our state-of-the-art facility, creatives and staff of seasoned producers handle all aspects of the production process- from concept to final delivery.</p>
@@ -359,7 +359,7 @@
                 </div>
                 <div id="editorial" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Bring your story to life with our team of seasoned editors. <a href="">Watch our editing reel here</a>.</p>
+                    <p>Bring your story to life with our team of seasoned editors. <a href="#" onclick="portfolio.open('editorial'); return false;">Watch our editing reel here</a>.</p>
                   </div>
                 </div>
               </div>
@@ -371,7 +371,7 @@
                 </div>
                 <div id="sound-design" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>We mix and sound design for different types of projects: corporate videos, television & radio, short & feature length films, documentaries, commercials, web content and video games. We do this by providing: sound design, sound mixing & sweetening, dialogue replacement (ADR), music search, noise reduction & audio restoration, voice-casting, voice-over recording (VO), digital patch (ISDN). <a href="">Watch our audio reel here</a>.</p>
+                    <p>We mix and sound design for different types of projects: corporate videos, television & radio, short & feature length films, documentaries, commercials, web content and video games. We do this by providing: sound design, sound mixing & sweetening, dialogue replacement (ADR), music search, noise reduction & audio restoration, voice-casting, voice-over recording (VO), digital patch (ISDN). <a href="#" onclick="portfolio.open('sound-design'); return false;">Watch our audio reel here</a>.</p>
                   </div>
                 </div>
               </div>
@@ -383,7 +383,7 @@
                 </div>
                 <div id="graphics" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Animate your message. Our graphic capabilities range from 2D text animation to 3D projections mapped on buildings. <a href="">Watch our graphics reel here</a>.</p>
+                    <p>Animate your message. Our graphic capabilities range from 2D text animation to 3D projections mapped on buildings. <a href="#" onclick="portfolio.open('graphic-design'); return false;">Watch our graphics reel here</a>.</p>
                   </div>
                 </div>
               </div>
@@ -395,7 +395,7 @@
                 </div>
                 <div id="studios" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Our facility, with one of the largest shooting stages in Chicago, is a powerhouse of capabilities. We have everything you need within our walls &mdash; multiple stages, dressing rooms and workspaces are a few of our offerings. We serve as a unique place to host an event.</p>
+                    <p>Our facility, with one of the largest shooting stages in Chicago, is a powerhouse of capabilities. We have everything you need within our walls &mdash; multiple stages, dressing rooms and workspaces are a few of our offerings. We serve as a unique place to host an event. <a href="downloads/facilities_kit.pdf" target="_blank">Download our facilities kit</a>.</p>
                   </div>
                 </div>
               </div>
@@ -447,7 +447,7 @@
                 </div>
                 <div id="led" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <p>Upgrade your presentation environment with our high resolution LED (light-emitting diode) displays.  Our inventory includes: hi-res 3mm Indoor, bevel/angle capable 4mm indoor, outdoor 5mm, and flexible 9mm indoor/outdoor. Our tiles are calibrated, matching and our inventory is in the thousands.  We build LED walls and structures for a variety of scenic solutions.  <a href="">Watch our LED sizzle reel here</a>.</p>
+                    <p>Upgrade your presentation environment with our high resolution LED (light-emitting diode) displays.  Our inventory includes: hi-res 3mm Indoor, bevel/angle capable 4mm indoor, outdoor 5mm, and flexible 9mm indoor/outdoor. Our tiles are calibrated, matching and our inventory is in the thousands.  We build LED walls and structures for a variety of scenic solutions.  <a href="#" onclick="portfolio.open('led-sizzle'); return false;">Watch our LED sizzle reel here</a>.</p>
                   </div>
                 </div>
               </div>
@@ -517,36 +517,12 @@
 			<div class="portfolio-wrapper">
 				<ul class="portfolio-filter text-center">
 					<li><a class="active" href="#" data-filter="*">All</a></li>
-					<li><a href="#" data-filter=".photography">Live Events</a></li>
+					<li><a href="#" data-filter=".live">Live Events</a></li>
 					<li><a href="#" data-filter=".video">Video</a></li>
-					<li><a href="#" data-filter=".print-design">Scenic</a></li>
+					<li><a href="#" data-filter=".scenic">Scenic</a></li>
 				</ul><!--/#portfolio-filter-->
 				<div class="row portfolio-items">
-					<div class="col-sm-4 col-md-3 portfolio-item print-design video">
-						<div class="portfolio-content">
-							<img class="img-responsive" src="img/thumb-editorial.jpg" alt="">
-							<div class="folio-overlay">
-								<a class="folio-detail" href="#" onclick="portfolio.open('editorial'); return false;"><i class="fa fa-plus"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item graphic video">
-						<div class="portfolio-content">
-							<img class="img-responsive" src="img/thumb-graphic-design.jpg" alt="">
-							<div class="folio-overlay">
-								<a class="folio-detail" href="#" onclick="portfolio.open('graphic-design'); return false;"><i class="fa fa-plus"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item print-design art">
-						<div class="portfolio-content">
-							<img class="img-responsive" src="img/thumb-led-sizzle.jpg" alt="">
-							<div class="folio-overlay">
-								<a class="folio-detail" href="#" onclick="portfolio.open('led-sizzle'); return false;"><i class="fa fa-plus"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item video art photography">
+					<div class="col-sm-4 col-md-3 portfolio-item live video scenic">
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-rpg-sizzle.jpg" alt="">
 							<div class="folio-overlay">
@@ -554,7 +530,47 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item video art">
+					<div class="col-sm-4 col-md-3 portfolio-item live video">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="img/thumb-usg-launch.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-detail" href="#" onclick="portfolio.open('usg-launch'); return false;"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item live video scenic">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="img/thumb-usg.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-detail" href="#" onclick="portfolio.open('usg'); return false;"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item live scenic">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="img/thumb-aon.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-detail" href="#" onclick="portfolio.open('aon'); return false;"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="img/thumb-editorial.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-detail" href="#" onclick="portfolio.open('editorial'); return false;"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="img/thumb-graphic-design.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-detail" href="#" onclick="portfolio.open('graphic-design'); return false;"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item video scenic">
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-screenworks.jpg" alt="">
 							<div class="folio-overlay">
@@ -562,7 +578,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item photography graphic">
+					<div class="col-sm-4 col-md-3 portfolio-item video">
 						<div class="portfolio-content">
 							<img class="img-responsive" src="img/thumb-sound-design.jpg" alt="">
 							<div class="folio-overlay">
@@ -570,11 +586,19 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4 col-md-3 portfolio-item video art">
+					<div class="col-sm-4 col-md-3 portfolio-item scenic">
 						<div class="portfolio-content">
-							<img class="img-responsive" src="img/thumb-usg-launch.jpg" alt="">
+							<img class="img-responsive" src="img/thumb-led-sizzle.jpg" alt="">
 							<div class="folio-overlay">
-								<a class="folio-detail" href="#" onclick="portfolio.open('usg-launch'); return false;"><i class="fa fa-plus"></i></a>
+								<a class="folio-detail" href="#" onclick="portfolio.open('led-sizzle'); return false;"><i class="fa fa-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3 portfolio-item scenic">
+						<div class="portfolio-content">
+							<img class="img-responsive" src="img/thumb-metro.jpg" alt="">
+							<div class="folio-overlay">
+								<a class="folio-detail" href="#" onclick="portfolio.open('metro'); return false;"><i class="fa fa-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -866,9 +890,17 @@
           <?php
           if ($_SERVER['REQUEST_METHOD'] === "POST") {
             echo "<strong>Thank you for contact us.</strong>";
+            $to = "info@resolutionproductionsgroup.com";
+            $subject = "RPG Contact Form Submission";
+            $message = "Name: " . $_POST['name'] . "\r\n";
+            $message .= "Email: " . $_POST['email'] . "\r\n";
+            $message .= "Subject: " . $_POST['subject'] . "\r\n";
+            $message .= "Message: " . $_POST['message'] . "\r\n";
+            $headers = "From: no-replay@resolutionproductionsgroup.com\r\n" . "Reply-To: " . $_POST['email'] . "\r\n" . "X-Mailer: PHP/" . phpversion();
+            mail($to, $subject, $message, $headers);
           }
           ?>
-					<form id="contact-form" name="contact-form" method="post" action="./">
+					<form id="contact-form" name="contact-form" method="post" action="./#contact-us">
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="form-group">
@@ -903,10 +935,10 @@
 						<div class="social-icons">
 							<h3>Get in Touch</h3>
 							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+								<li><a href="http://www.facebook.com/ResolutionProductions" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/ResolutionProd" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="http://www.linkedin.com/company/resolution-productions-group" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://vimeo.com/resolutionproductions" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
 							</ul>
 						</div>
 					</div>

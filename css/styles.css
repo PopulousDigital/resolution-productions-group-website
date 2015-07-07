@@ -46,6 +46,9 @@ a {
   -o-transition: 300ms;
   transition: 300ms;
 }
+#creative .panel-body a {
+  color: #f89628;
+}
 
 a:focus, 
 a:hover {
@@ -650,6 +653,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px;
   position: absolute;
   right: 20px;
+  text-shadow: 2px 2px 2px #666;
   top: 0px;
   z-index: 1000000;
 }
@@ -698,6 +702,10 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-filter li a.active {
 	color:#fff;
 	background-color:#f89628
+}
+
+.portfolio-image {
+  width: 100%;
 }
 
 .portfolio-content {
